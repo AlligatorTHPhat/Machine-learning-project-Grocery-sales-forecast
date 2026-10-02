@@ -1,2 +1,9 @@
 docs/raw/
 *.csv
+*.pdf
+
+*.docx
+*.parquet
+
+data/processed/*.parquet
+data/data/processed/
