@@ -118,12 +118,12 @@ Làm notebook mới `03_eda_for_decisions`. Có 12 câu hỏi (Phần 6). Mỗi 
 
 ### Tuần 5 (02–08/11): Cách chấm điểm và baseline
 
-- [ ] Viết hàm tính điểm NWRMSLE và kiểm tra nó đúng.
-- [ ] Chạy B0, B1, B2, B3 trên 3 fold. Ghi điểm vào bảng.
+- [x] Viết hàm tính điểm NWRMSLE và kiểm tra nó đúng.
+- [x] Chạy B0, B1, B2, B3 trên 3 fold. Ghi điểm vào bảng.
 
 ### Tuần 6 (09–15/11): Làm feature
 
-- [ ] Viết code tạo feature. Kiểm tra **không feature nào nhìn thấy tương lai**.
+- [x] Viết code tạo feature. Kiểm tra **không feature nào nhìn thấy tương lai**.
 
 ### Tuần 7–8 (16–29/11): Huấn luyện mô hình
 
