@@ -1,3 +1,7 @@
+.conda/
+__pycache__/
+.pytest_cache/
+*.pyc
 docs/raw/
 *.csv
 *.pdf
