@@ -1,0 +1,292 @@
+{
+  "notebook": "02_data_cleaning.ipynb",
+  "project_root": "/home/phat/Documents/Project/Machine Learning/Grocery-sales-forecast",
+  "output_format": "parquet",
+  "chunk_size": 100000,
+  "policies": {
+    "raw_files_modified": false,
+    "rows_dropped": false,
+    "duplicates_deleted": false,
+    "negative_unit_sales_deleted": false,
+    "onpromotion_missing_imputed": false,
+    "oil_missing_imputed": false,
+    "date_gaps_filled": false,
+    "date_normalization": "datetime",
+    "onpromotion_normalization": "nullable boolean; missing preserved"
+  },
+  "schema_validation": [
+    {
+      "file": "train.csv",
+      "status": "OK",
+      "missing_required_columns": [],
+      "extra_columns": [],
+      "actual_column_count": 6,
+      "expected_column_count": 6
+    },
+    {
+      "file": "test.csv",
+      "status": "OK",
+      "missing_required_columns": [],
+      "extra_columns": [],
+      "actual_column_count": 5,
+      "expected_column_count": 5
+    },
+    {
+      "file": "stores.csv",
+      "status": "OK",
+      "missing_required_columns": [],
+      "extra_columns": [],
+      "actual_column_count": 5,
+      "expected_column_count": 5
+    },
+    {
+      "file": "items.csv",
+      "status": "OK",
+      "missing_required_columns": [],
+      "extra_columns": [],
+      "actual_column_count": 4,
+      "expected_column_count": 4
+    },
+    {
+      "file": "oil.csv",
+      "status": "OK",
+      "missing_required_columns": [],
+      "extra_columns": [],
+      "actual_column_count": 2,
+      "expected_column_count": 2
+    },
+    {
+      "file": "holidays_events.csv",
+      "status": "OK",
+      "missing_required_columns": [],
+      "extra_columns": [],
+      "actual_column_count": 6,
+      "expected_column_count": 6
+    },
+    {
+      "file": "transactions.csv",
+      "status": "OK",
+      "missing_required_columns": [],
+      "extra_columns": [],
+      "actual_column_count": 3,
+      "expected_column_count": 3
+    }
+  ],
+  "raw_large_table_profiles": {
+    "train.csv": {
+      "file": "train.csv",
+      "rows": 125497040,
+      "missing_by_column": {
+        "id": 0,
+        "date": 0,
+        "store_nbr": 0,
+        "item_nbr": 0,
+        "unit_sales": 0,
+        "onpromotion": 21657651
+      },
+      "invalid_date_rows": 0,
+      "invalid_id_rows": 0,
+      "invalid_store_nbr_rows": 0,
+      "invalid_item_nbr_rows": 0,
+      "nonpositive_store_nbr_rows": 0,
+      "nonpositive_item_nbr_rows": 0,
+      "unit_sales_nonnumeric_rows": 0,
+      "unit_sales_negative_rows": 7795,
+      "unit_sales_zero_rows": 0,
+      "onpromotion_unrecognized_rows": 0,
+      "store_reference_mismatch_rows": 0,
+      "item_reference_mismatch_rows": 0,
+      "business_key_duplicate_rows_within_chunks": 0,
+      "business_key_duplicate_rows_at_chunk_boundaries": 0,
+      "business_key_order_is_monotonic": true,
+      "business_key_duplicate_rows_total_if_sorted": 0
+    },
+    "test.csv": {
+      "file": "test.csv",
+      "rows": 3370464,
+      "missing_by_column": {
+        "id": 0,
+        "date": 0,
+        "store_nbr": 0,
+        "item_nbr": 0,
+        "onpromotion": 0
+      },
+      "invalid_date_rows": 0,
+      "invalid_id_rows": 0,
+      "invalid_store_nbr_rows": 0,
+      "invalid_item_nbr_rows": 0,
+      "nonpositive_store_nbr_rows": 0,
+      "nonpositive_item_nbr_rows": 0,
+      "unit_sales_nonnumeric_rows": 0,
+      "unit_sales_negative_rows": 0,
+      "unit_sales_zero_rows": 0,
+      "onpromotion_unrecognized_rows": 0,
+      "store_reference_mismatch_rows": 0,
+      "item_reference_mismatch_rows": 0,
+      "business_key_duplicate_rows_within_chunks": 0,
+      "business_key_duplicate_rows_at_chunk_boundaries": 0,
+      "business_key_order_is_monotonic": true,
+      "business_key_duplicate_rows_total_if_sorted": 0
+    }
+  },
+  "reference_key_duplicates": [
+    {
+      "file": "stores.csv",
+      "key_columns": [
+        "store_nbr"
+      ],
+      "duplicate_rows": 0
+    },
+    {
+      "file": "items.csv",
+      "key_columns": [
+        "item_nbr"
+      ],
+      "duplicate_rows": 0
+    },
+    {
+      "file": "oil.csv",
+      "key_columns": [
+        "date"
+      ],
+      "duplicate_rows": 0
+    },
+    {
+      "file": "transactions.csv",
+      "key_columns": [
+        "date",
+        "store_nbr"
+      ],
+      "duplicate_rows": 0
+    }
+  ],
+  "large_table_write_results": [
+    {
+      "input_file": "train.csv",
+      "output_file": "data/processed/train_cleaned.parquet",
+      "rows_written": 125497040,
+      "missing_onpromotion_preserved": 21657651,
+      "negative_unit_sales_preserved": 7795,
+      "output_size_mb": 1102.275263786316,
+      "elapsed_minutes": 2.47069152990977
+    },
+    {
+      "input_file": "test.csv",
+      "output_file": "data/processed/test_cleaned.parquet",
+      "rows_written": 3370464,
+      "missing_onpromotion_preserved": 0,
+      "negative_unit_sales_preserved": null,
+      "output_size_mb": 25.034229278564453,
+      "elapsed_minutes": 0.05537384351094564
+    }
+  ],
+  "small_table_write_results": [
+    {
+      "input_file": "stores.csv",
+      "output_file": "data/processed/stores_cleaned.parquet",
+      "rows_input": 54,
+      "rows_written": 54,
+      "output_size_mb": 0.003916740417480469
+    },
+    {
+      "input_file": "items.csv",
+      "output_file": "data/processed/items_cleaned.parquet",
+      "rows_input": 4100,
+      "rows_written": 4100,
+      "output_size_mb": 0.033336639404296875
+    },
+    {
+      "input_file": "oil.csv",
+      "output_file": "data/processed/oil_cleaned.parquet",
+      "rows_input": 1218,
+      "rows_written": 1218,
+      "output_size_mb": 0.01735210418701172
+    },
+    {
+      "input_file": "holidays_events.csv",
+      "output_file": "data/processed/holidays_events_cleaned.parquet",
+      "rows_input": 350,
+      "rows_written": 350,
+      "output_size_mb": 0.008315086364746094
+    },
+    {
+      "input_file": "transactions.csv",
+      "output_file": "data/processed/transactions_cleaned.parquet",
+      "rows_input": 83488,
+      "rows_written": 83488,
+      "output_size_mb": 0.1705160140991211
+    }
+  ],
+  "output_validation": [
+    {
+      "input_file": "train.csv",
+      "output_file": "data/processed/train_cleaned.parquet",
+      "input_rows": 125497040,
+      "output_rows": 125497040,
+      "row_count_match": true,
+      "missing_expected_columns": [],
+      "status": "OK",
+      "output_size_mb": 1102.275263786316
+    },
+    {
+      "input_file": "test.csv",
+      "output_file": "data/processed/test_cleaned.parquet",
+      "input_rows": 3370464,
+      "output_rows": 3370464,
+      "row_count_match": true,
+      "missing_expected_columns": [],
+      "status": "OK",
+      "output_size_mb": 25.034229278564453
+    },
+    {
+      "input_file": "stores.csv",
+      "output_file": "data/processed/stores_cleaned.parquet",
+      "input_rows": 54,
+      "output_rows": 54,
+      "row_count_match": true,
+      "missing_expected_columns": [],
+      "status": "OK",
+      "output_size_mb": 0.003916740417480469
+    },
+    {
+      "input_file": "items.csv",
+      "output_file": "data/processed/items_cleaned.parquet",
+      "input_rows": 4100,
+      "output_rows": 4100,
+      "row_count_match": true,
+      "missing_expected_columns": [],
+      "status": "OK",
+      "output_size_mb": 0.033336639404296875
+    },
+    {
+      "input_file": "oil.csv",
+      "output_file": "data/processed/oil_cleaned.parquet",
+      "input_rows": 1218,
+      "output_rows": 1218,
+      "row_count_match": true,
+      "missing_expected_columns": [],
+      "status": "OK",
+      "output_size_mb": 0.01735210418701172
+    },
+    {
+      "input_file": "holidays_events.csv",
+      "output_file": "data/processed/holidays_events_cleaned.parquet",
+      "input_rows": 350,
+      "output_rows": 350,
+      "row_count_match": true,
+      "missing_expected_columns": [],
+      "status": "OK",
+      "output_size_mb": 0.008315086364746094
+    },
+    {
+      "input_file": "transactions.csv",
+      "output_file": "data/processed/transactions_cleaned.parquet",
+      "input_rows": 83488,
+      "output_rows": 83488,
+      "row_count_match": true,
+      "missing_expected_columns": [],
+      "status": "OK",
+      "output_size_mb": 0.1705160140991211
+    }
+  ]
+}
