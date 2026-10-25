@@ -1,0 +1,42 @@
+{
+  "holidays_events.csv": {
+    "size_bytes": 22309,
+    "hash_mode": "full",
+    "sha256": "81a183d6c4d691b57f84a0fde6bbf734a5b3c36a74b97378bf33a592648e2999"
+  },
+  "items.csv": {
+    "size_bytes": 101841,
+    "hash_mode": "full",
+    "sha256": "1efd8295f52c8531ec5bf6c3de37228a56bad2f2c653e79c4869baaf637edcc6"
+  },
+  "oil.csv": {
+    "size_bytes": 20580,
+    "hash_mode": "full",
+    "sha256": "944b23b857580f9d804399346fd3ed69bffcb7facfd98c55fdb408b8d057cca7"
+  },
+  "sample_submission.csv": {
+    "size_bytes": 40445582,
+    "hash_mode": "full",
+    "sha256": "50b93078008e68bdd0818b18ca2493c23e7ad7e2c506b2b263c3347dad1d77db"
+  },
+  "stores.csv": {
+    "size_bytes": 1387,
+    "hash_mode": "full",
+    "sha256": "af503b2bce11d7906d249f81cc0598f10e2addcc9f6c59aa2d95c9f2652c296b"
+  },
+  "test.csv": {
+    "size_bytes": 126163026,
+    "hash_mode": "head+tail",
+    "sha256": "f13e3e699174cc72f818af9f5d727a3858b904e4a19fd49e37eff7cc3497985c"
+  },
+  "train.csv": {
+    "size_bytes": 4997452288,
+    "hash_mode": "head+tail",
+    "sha256": "3f707c9331687640b8384a314e0c0b5d7b27d57b7091ec97ac20609f22a85104"
+  },
+  "transactions.csv": {
+    "size_bytes": 1552637,
+    "hash_mode": "full",
+    "sha256": "e116384a6981af74932832436aa2f6a43121f77ca81accc44e3a5160158ca03c"
+  }
+}
