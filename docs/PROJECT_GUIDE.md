@@ -160,7 +160,7 @@ Hiểu & kiểm tra dữ liệu → EDA → Làm sạch → Tạo đặc trưng 
 - [x] Ghi 7 file `*_cleaned.parquet` vào `data/processed/`; số dòng đầu vào = đầu ra ở mọi file
 - [x] Lưu báo cáo `reports/02_cleaning_report.json` và các bảng trong `reports/table/`
 - [x] Quyết định có chủ đích: **chưa** xóa dòng âm, **chưa** điền giá trị thiếu, **chưa** thêm ngày thiếu
-- [ ] Mở `reports/02_cleaning_report.json` và `reports/table/02_output_validation.csv` kiểm tra lần cuối: tất cả `status = OK`
+- [x] Mở `reports/02_cleaning_report.json` và `reports/table/02_output_validation.csv` kiểm tra lần cuối: tất cả `status = OK`
 - [x] Đối chiếu với file `docs/data_understanding_cleaning_report.md` đã có (mình chưa xem), tránh hai báo cáo nói khác nhau
 
 **Quy tắc từ đây trở đi:** dữ liệu trong `data/processed/` coi như "chuẩn". Mọi xử lý mới (điền thiếu, cắt âm về 0, ...) làm ở bước tạo feature, **không** ghi đè file cleaned.
