@@ -144,7 +144,7 @@ Hiểu & kiểm tra dữ liệu → EDA → Làm sạch → Tạo đặc trưng 
 - [x] Kiểm tra trong `test` có bao nhiêu mặt hàng và cặp (cửa hàng, mặt hàng) **chưa từng xuất hiện** trong `train` (cold start)
 - [x] Kiểm tra mức độ "thưa" của dữ liệu: `train` chỉ chứa các dòng có bán, vậy bao nhiêu % tổ hợp (ngày × cửa hàng × mặt hàng) có dòng?
 - [x] Vẽ doanh số trung bình theo `family` và theo `perishable` (hàng dễ hỏng) vì sau này dùng làm trọng số
-- [ ] Kiểm tra bằng biểu đồ: doanh số có tăng vào ngày 15 và cuối tháng không (ngày trả lương)?
+- [x] Kiểm tra bằng biểu đồ: doanh số có tăng vào ngày 15 và cuối tháng không (ngày trả lương)?
 
 **Đầu ra:** notebook có kết luận đầy đủ; hình lưu vào `reports/figures/`.
 
