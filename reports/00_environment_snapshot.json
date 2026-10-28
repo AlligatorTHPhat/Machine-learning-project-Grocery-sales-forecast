@@ -1,0 +1,183 @@
+{
+  "created_at": "2026-10-25T16:37:36",
+  "project_name": "Machine Learning Final Project",
+  "task_type": "Time Series Forecasting",
+  "target": "unit_sales",
+  "granularity": [
+    "date",
+    "store_nbr",
+    "item_nbr"
+  ],
+  "forecast": {
+    "start": "2017-08-16T00:00:00",
+    "end": "2017-08-31T00:00:00",
+    "horizon_days": 16,
+    "expected_train_end": "2017-08-15T00:00:00",
+    "test_is_full_pair_x_day_grid": true
+  },
+  "metric": {
+    "name": "NWRMSLE",
+    "perishable_weight": 1.25,
+    "non_perishable_weight": 1.0,
+    "negative_values_clipped_to_zero": true,
+    "status": "provisional - cần đối chiếu đề bài"
+  },
+  "environment": {
+    "python": "3.11.16",
+    "cpu_cores": 8,
+    "ram_total_gb": 7.500282287597656,
+    "ram_available_gb": 1.8995208740234375,
+    "disk_free_gb": 98.48952102661133,
+    "num_raw_csv": 8
+  },
+  "library_versions": {
+    "pandas": "3.0.5",
+    "numpy": "2.4.6",
+    "pyarrow": "25.0.1",
+    "matplotlib": "3.11.2",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.1",
+    "statsmodels": null,
+    "lightgbm": "4.7.0",
+    "xgboost": "3.2.0",
+    "catboost": null,
+    "polars": null,
+    "duckdb": null,
+    "psutil": "7.2.2"
+  },
+  "seed": 42,
+  "dtype_plan": {
+    "id": "int32",
+    "date": "datetime64[ns]",
+    "store_nbr": "int8",
+    "item_nbr": "int32",
+    "unit_sales": "float32",
+    "onpromotion": "boolean"
+  },
+  "memory": {
+    "train_default_gb": 6.78047992375493,
+    "train_optimized_gb": 2.688199207186699
+  },
+  "chunk": {
+    "recommended_chunk_size": 250000,
+    "benchmark_rows": 4000000,
+    "benchmark": [
+      {
+        "chunk_size": 50000,
+        "rows_read": 4000000,
+        "seconds": 4.1,
+        "rows_per_second": 976463.7214925346,
+        "peak_rss_increase_mb": 2.3,
+        "est_full_train_pass_minutes": 2.142032814220968
+      },
+      {
+        "chunk_size": 100000,
+        "rows_read": 4000000,
+        "seconds": 4.13,
+        "rows_per_second": 968491.0663695408,
+        "peak_rss_increase_mb": 1.9,
+        "est_full_train_pass_minutes": 2.1596661094396183
+      },
+      {
+        "chunk_size": 250000,
+        "rows_read": 4000000,
+        "seconds": 4.03,
+        "rows_per_second": 992714.113988586,
+        "peak_rss_increase_mb": 27.3,
+        "est_full_train_pass_minutes": 2.1069684654018954
+      },
+      {
+        "chunk_size": 500000,
+        "rows_read": 4000000,
+        "seconds": 4.59,
+        "rows_per_second": 871094.4817005225,
+        "peak_rss_increase_mb": 24.4,
+        "est_full_train_pass_minutes": 2.4011371639619914
+      },
+      {
+        "chunk_size": 1000000,
+        "rows_read": 4000000,
+        "seconds": 4.82,
+        "rows_per_second": 829060.8385989909,
+        "peak_rss_increase_mb": 24.1,
+        "est_full_train_pass_minutes": 2.522875567090957
+      }
+    ]
+  },
+  "file_inventory": [
+    {
+      "file": "train.csv",
+      "size_mb": 4765.94189453125
+    },
+    {
+      "file": "test.csv",
+      "size_mb": 120.31843757629395
+    },
+    {
+      "file": "sample_submission.csv",
+      "size_mb": 38.57191276550293
+    },
+    {
+      "file": "transactions.csv",
+      "size_mb": 1.4807100296020508
+    },
+    {
+      "file": "items.csv",
+      "size_mb": 0.0971231460571289
+    },
+    {
+      "file": "holidays_events.csv",
+      "size_mb": 0.02127552032470703
+    },
+    {
+      "file": "oil.csv",
+      "size_mb": 0.019626617431640625
+    },
+    {
+      "file": "stores.csv",
+      "size_mb": 0.0013227462768554688
+    }
+  ],
+  "dataset_summary": [
+    {
+      "file": "train.csv",
+      "rows": 125497040,
+      "columns": 6
+    },
+    {
+      "file": "sample_submission.csv",
+      "rows": 3370464,
+      "columns": 2
+    },
+    {
+      "file": "test.csv",
+      "rows": 3370464,
+      "columns": 5
+    },
+    {
+      "file": "transactions.csv",
+      "rows": 83488,
+      "columns": 3
+    },
+    {
+      "file": "items.csv",
+      "rows": 4100,
+      "columns": 4
+    },
+    {
+      "file": "oil.csv",
+      "rows": 1218,
+      "columns": 2
+    },
+    {
+      "file": "holidays_events.csv",
+      "rows": 350,
+      "columns": 6
+    },
+    {
+      "file": "stores.csv",
+      "rows": 54,
+      "columns": 5
+    }
+  ]
+}

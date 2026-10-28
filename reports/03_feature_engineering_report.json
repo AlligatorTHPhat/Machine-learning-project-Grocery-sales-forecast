@@ -1,0 +1,1129 @@
+{
+  "created_at": "2026-10-26T17:18:57",
+  "n_features": 75,
+  "manifest": [
+    {
+      "role": "test",
+      "origin": "2017-08-15T00:00:00",
+      "file": "test_20170815.parquet",
+      "universe_pairs": 210654,
+      "sampled_pairs": 210654,
+      "rows": 3370464,
+      "size_mb": 196.0909538269043,
+      "seconds": 56.815083742141724,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2015-06-11T00:00:00",
+      "file": "train_20150611.parquet",
+      "universe_pairs": 115363,
+      "sampled_pairs": 2782,
+      "rows": 44512,
+      "size_mb": 4.24138069152832,
+      "seconds": 6.971834182739258,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2015-06-24T00:00:00",
+      "file": "train_20150624.parquet",
+      "universe_pairs": 116393,
+      "sampled_pairs": 2688,
+      "rows": 42947,
+      "size_mb": 4.108207702636719,
+      "seconds": 6.657949447631836,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2015-07-07T00:00:00",
+      "file": "train_20150707.parquet",
+      "universe_pairs": 118073,
+      "sampled_pairs": 2772,
+      "rows": 44352,
+      "size_mb": 4.2899322509765625,
+      "seconds": 6.698406219482422,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2015-07-20T00:00:00",
+      "file": "train_20150720.parquet",
+      "universe_pairs": 118696,
+      "sampled_pairs": 2778,
+      "rows": 44448,
+      "size_mb": 4.299309730529785,
+      "seconds": 6.730290412902832,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2015-08-02T00:00:00",
+      "file": "train_20150802.parquet",
+      "universe_pairs": 121446,
+      "sampled_pairs": 2844,
+      "rows": 45504,
+      "size_mb": 4.351654052734375,
+      "seconds": 6.817825794219971,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2015-08-15T00:00:00",
+      "file": "train_20150815.parquet",
+      "universe_pairs": 121904,
+      "sampled_pairs": 2796,
+      "rows": 44736,
+      "size_mb": 4.299595832824707,
+      "seconds": 6.9744017124176025,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2015-08-28T00:00:00",
+      "file": "train_20150828.parquet",
+      "universe_pairs": 125241,
+      "sampled_pairs": 2786,
+      "rows": 44576,
+      "size_mb": 4.257096290588379,
+      "seconds": 7.137279987335205,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2015-09-10T00:00:00",
+      "file": "train_20150910.parquet",
+      "universe_pairs": 127392,
+      "sampled_pairs": 2985,
+      "rows": 47760,
+      "size_mb": 4.611697196960449,
+      "seconds": 7.277221918106079,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2015-09-23T00:00:00",
+      "file": "train_20150923.parquet",
+      "universe_pairs": 127953,
+      "sampled_pairs": 2996,
+      "rows": 47936,
+      "size_mb": 4.580935478210449,
+      "seconds": 7.46929669380188,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2015-10-06T00:00:00",
+      "file": "train_20151006.parquet",
+      "universe_pairs": 134513,
+      "sampled_pairs": 3154,
+      "rows": 50464,
+      "size_mb": 4.805098533630371,
+      "seconds": 7.871527910232544,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2015-10-19T00:00:00",
+      "file": "train_20151019.parquet",
+      "universe_pairs": 137225,
+      "sampled_pairs": 3146,
+      "rows": 50336,
+      "size_mb": 4.839756965637207,
+      "seconds": 8.161212682723999,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2015-11-01T00:00:00",
+      "file": "train_20151101.parquet",
+      "universe_pairs": 138223,
+      "sampled_pairs": 3268,
+      "rows": 52288,
+      "size_mb": 4.925040245056152,
+      "seconds": 8.00476622581482,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2015-11-14T00:00:00",
+      "file": "train_20151114.parquet",
+      "universe_pairs": 139187,
+      "sampled_pairs": 3392,
+      "rows": 54272,
+      "size_mb": 5.141298294067383,
+      "seconds": 8.228904485702515,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2015-11-27T00:00:00",
+      "file": "train_20151127.parquet",
+      "universe_pairs": 139914,
+      "sampled_pairs": 3397,
+      "rows": 54352,
+      "size_mb": 5.0944061279296875,
+      "seconds": 8.387840747833252,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2015-12-10T00:00:00",
+      "file": "train_20151210.parquet",
+      "universe_pairs": 140643,
+      "sampled_pairs": 3233,
+      "rows": 48495,
+      "size_mb": 4.60801887512207,
+      "seconds": 8.321319341659546,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2015-12-23T00:00:00",
+      "file": "train_20151223.parquet",
+      "universe_pairs": 141253,
+      "sampled_pairs": 3253,
+      "rows": 45599,
+      "size_mb": 4.377582550048828,
+      "seconds": 8.398294925689697,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-01-05T00:00:00",
+      "file": "train_20160105.parquet",
+      "universe_pairs": 141539,
+      "sampled_pairs": 3272,
+      "rows": 52352,
+      "size_mb": 4.991715431213379,
+      "seconds": 8.752454042434692,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-01-18T00:00:00",
+      "file": "train_20160118.parquet",
+      "universe_pairs": 142025,
+      "sampled_pairs": 3285,
+      "rows": 52560,
+      "size_mb": 4.967720985412598,
+      "seconds": 8.96155071258545,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-01-31T00:00:00",
+      "file": "train_20160131.parquet",
+      "universe_pairs": 142426,
+      "sampled_pairs": 3340,
+      "rows": 53440,
+      "size_mb": 5.009895324707031,
+      "seconds": 9.587115287780762,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-02-13T00:00:00",
+      "file": "train_20160213.parquet",
+      "universe_pairs": 142817,
+      "sampled_pairs": 3299,
+      "rows": 52784,
+      "size_mb": 4.977807998657227,
+      "seconds": 8.844779968261719,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-02-26T00:00:00",
+      "file": "train_20160226.parquet",
+      "universe_pairs": 143230,
+      "sampled_pairs": 3308,
+      "rows": 52928,
+      "size_mb": 4.960210800170898,
+      "seconds": 8.837043523788452,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-03-10T00:00:00",
+      "file": "train_20160310.parquet",
+      "universe_pairs": 144040,
+      "sampled_pairs": 3320,
+      "rows": 53024,
+      "size_mb": 5.02835750579834,
+      "seconds": 9.079712867736816,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-03-23T00:00:00",
+      "file": "train_20160323.parquet",
+      "universe_pairs": 144799,
+      "sampled_pairs": 3371,
+      "rows": 53936,
+      "size_mb": 5.046747207641602,
+      "seconds": 9.720272302627563,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-06-22T00:00:00",
+      "file": "train_20160622.parquet",
+      "universe_pairs": 149364,
+      "sampled_pairs": 3533,
+      "rows": 56528,
+      "size_mb": 5.202651023864746,
+      "seconds": 10.22651720046997,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-07-05T00:00:00",
+      "file": "train_20160705.parquet",
+      "universe_pairs": 149969,
+      "sampled_pairs": 3493,
+      "rows": 55888,
+      "size_mb": 5.194705963134766,
+      "seconds": 10.023041248321533,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-07-18T00:00:00",
+      "file": "train_20160718.parquet",
+      "universe_pairs": 150499,
+      "sampled_pairs": 3477,
+      "rows": 55632,
+      "size_mb": 5.169025421142578,
+      "seconds": 9.55519986152649,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-07-31T00:00:00",
+      "file": "train_20160731.parquet",
+      "universe_pairs": 151169,
+      "sampled_pairs": 3551,
+      "rows": 56684,
+      "size_mb": 5.212292671203613,
+      "seconds": 10.148715734481812,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-08-13T00:00:00",
+      "file": "train_20160813.parquet",
+      "universe_pairs": 151818,
+      "sampled_pairs": 3576,
+      "rows": 55519,
+      "size_mb": 5.174150466918945,
+      "seconds": 9.968985080718994,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-08-26T00:00:00",
+      "file": "train_20160826.parquet",
+      "universe_pairs": 152358,
+      "sampled_pairs": 3549,
+      "rows": 54576,
+      "size_mb": 5.058277130126953,
+      "seconds": 9.632681131362915,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-09-08T00:00:00",
+      "file": "train_20160908.parquet",
+      "universe_pairs": 153089,
+      "sampled_pairs": 3604,
+      "rows": 55200,
+      "size_mb": 5.114292144775391,
+      "seconds": 9.578598022460938,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-09-21T00:00:00",
+      "file": "train_20160921.parquet",
+      "universe_pairs": 153766,
+      "sampled_pairs": 3549,
+      "rows": 54704,
+      "size_mb": 5.074640274047852,
+      "seconds": 9.759591102600098,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-10-04T00:00:00",
+      "file": "train_20161004.parquet",
+      "universe_pairs": 154438,
+      "sampled_pairs": 3571,
+      "rows": 55056,
+      "size_mb": 5.122906684875488,
+      "seconds": 9.912994146347046,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-10-17T00:00:00",
+      "file": "train_20161017.parquet",
+      "universe_pairs": 155373,
+      "sampled_pairs": 3612,
+      "rows": 56049,
+      "size_mb": 5.206958770751953,
+      "seconds": 9.607192754745483,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-10-30T00:00:00",
+      "file": "train_20161030.parquet",
+      "universe_pairs": 156338,
+      "sampled_pairs": 3603,
+      "rows": 56468,
+      "size_mb": 5.1870012283325195,
+      "seconds": 9.88402009010315,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-11-12T00:00:00",
+      "file": "train_20161112.parquet",
+      "universe_pairs": 157163,
+      "sampled_pairs": 3780,
+      "rows": 59028,
+      "size_mb": 5.397192001342773,
+      "seconds": 9.694552183151245,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-11-25T00:00:00",
+      "file": "train_20161125.parquet",
+      "universe_pairs": 158081,
+      "sampled_pairs": 3699,
+      "rows": 58764,
+      "size_mb": 5.412736892700195,
+      "seconds": 9.686267852783203,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-12-08T00:00:00",
+      "file": "train_20161208.parquet",
+      "universe_pairs": 161345,
+      "sampled_pairs": 3836,
+      "rows": 61376,
+      "size_mb": 5.745892524719238,
+      "seconds": 9.87899899482727,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2016-12-21T00:00:00",
+      "file": "train_20161221.parquet",
+      "universe_pairs": 162045,
+      "sampled_pairs": 3844,
+      "rows": 53901,
+      "size_mb": 5.096372604370117,
+      "seconds": 10.29676604270935,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2017-01-03T00:00:00",
+      "file": "train_20170103.parquet",
+      "universe_pairs": 162629,
+      "sampled_pairs": 3671,
+      "rows": 58736,
+      "size_mb": 5.469204902648926,
+      "seconds": 10.859467267990112,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2017-01-16T00:00:00",
+      "file": "train_20170116.parquet",
+      "universe_pairs": 163119,
+      "sampled_pairs": 3707,
+      "rows": 59312,
+      "size_mb": 5.549267768859863,
+      "seconds": 10.074098348617554,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2017-01-29T00:00:00",
+      "file": "train_20170129.parquet",
+      "universe_pairs": 163595,
+      "sampled_pairs": 3700,
+      "rows": 59200,
+      "size_mb": 5.484457015991211,
+      "seconds": 10.213340520858765,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2017-02-11T00:00:00",
+      "file": "train_20170211.parquet",
+      "universe_pairs": 164153,
+      "sampled_pairs": 3805,
+      "rows": 60880,
+      "size_mb": 5.650084495544434,
+      "seconds": 10.353591918945312,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2017-02-24T00:00:00",
+      "file": "train_20170224.parquet",
+      "universe_pairs": 164733,
+      "sampled_pairs": 3801,
+      "rows": 60816,
+      "size_mb": 5.625485420227051,
+      "seconds": 10.694496154785156,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2017-03-09T00:00:00",
+      "file": "train_20170309.parquet",
+      "universe_pairs": 165183,
+      "sampled_pairs": 3840,
+      "rows": 61440,
+      "size_mb": 5.687723159790039,
+      "seconds": 10.412107229232788,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2017-03-22T00:00:00",
+      "file": "train_20170322.parquet",
+      "universe_pairs": 165759,
+      "sampled_pairs": 3802,
+      "rows": 60832,
+      "size_mb": 5.589526176452637,
+      "seconds": 10.203499555587769,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2017-04-04T00:00:00",
+      "file": "train_20170404.parquet",
+      "universe_pairs": 166799,
+      "sampled_pairs": 3697,
+      "rows": 59152,
+      "size_mb": 5.479903221130371,
+      "seconds": 10.246670246124268,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2017-04-17T00:00:00",
+      "file": "train_20170417.parquet",
+      "universe_pairs": 167279,
+      "sampled_pairs": 3838,
+      "rows": 61408,
+      "size_mb": 5.639518737792969,
+      "seconds": 10.259177207946777,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2017-04-30T00:00:00",
+      "file": "train_20170430.parquet",
+      "universe_pairs": 170935,
+      "sampled_pairs": 3949,
+      "rows": 63184,
+      "size_mb": 5.768364906311035,
+      "seconds": 10.484514474868774,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2017-05-13T00:00:00",
+      "file": "train_20170513.parquet",
+      "universe_pairs": 171582,
+      "sampled_pairs": 3953,
+      "rows": 63248,
+      "size_mb": 5.822941780090332,
+      "seconds": 10.310710906982422,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2017-05-26T00:00:00",
+      "file": "train_20170526.parquet",
+      "universe_pairs": 172293,
+      "sampled_pairs": 4043,
+      "rows": 64688,
+      "size_mb": 5.940911293029785,
+      "seconds": 10.86559247970581,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2017-06-08T00:00:00",
+      "file": "train_20170608.parquet",
+      "universe_pairs": 172639,
+      "sampled_pairs": 4056,
+      "rows": 64896,
+      "size_mb": 5.886748313903809,
+      "seconds": 10.913124084472656,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2017-06-21T00:00:00",
+      "file": "train_20170621.parquet",
+      "universe_pairs": 173019,
+      "sampled_pairs": 4017,
+      "rows": 64272,
+      "size_mb": 5.827078819274902,
+      "seconds": 11.349703788757324,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2017-07-04T00:00:00",
+      "file": "train_20170704.parquet",
+      "universe_pairs": 173395,
+      "sampled_pairs": 4039,
+      "rows": 64624,
+      "size_mb": 5.81136417388916,
+      "seconds": 10.439567565917969,
+      "status": "đã dựng"
+    },
+    {
+      "role": "train",
+      "origin": "2017-07-17T00:00:00",
+      "file": "train_20170717.parquet",
+      "universe_pairs": 173842,
+      "sampled_pairs": 4058,
+      "rows": 64928,
+      "size_mb": 5.8521318435668945,
+      "seconds": 10.57081389427185,
+      "status": "đã dựng"
+    },
+    {
+      "role": "valid_last16",
+      "origin": "2017-07-30T00:00:00",
+      "file": "valid_last16_20170730.parquet",
+      "universe_pairs": 174140,
+      "sampled_pairs": 174140,
+      "rows": 2786240,
+      "size_mb": 193.00734615325928,
+      "seconds": 33.368253231048584,
+      "status": "đã dựng"
+    },
+    {
+      "role": "valid_seasonal",
+      "origin": "2016-08-15T00:00:00",
+      "file": "valid_seasonal_20160815.parquet",
+      "universe_pairs": 151876,
+      "sampled_pairs": 75662,
+      "rows": 1172130,
+      "size_mb": 87.9315824508667,
+      "seconds": 18.19299602508545,
+      "status": "đã dựng"
+    }
+  ],
+  "structure_checks": [
+    {
+      "kiểm tra": "test: số dòng bằng test_cleaned",
+      "kết quả": "PASS",
+      "chi tiết": "3,370,464 so với 3,370,464"
+    },
+    {
+      "kiểm tra": "test: tập id trùng khớp",
+      "kết quả": "PASS",
+      "chi tiết": ""
+    },
+    {
+      "kiểm tra": "test: id duy nhất",
+      "kết quả": "PASS",
+      "chi tiết": ""
+    },
+    {
+      "kiểm tra": "test: date - origin = h",
+      "kết quả": "PASS",
+      "chi tiết": ""
+    },
+    {
+      "kiểm tra": "test: không có nhãn",
+      "kết quả": "PASS",
+      "chi tiết": ""
+    },
+    {
+      "kiểm tra": "valid_last16_20170730.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "2,786,240 dòng"
+    },
+    {
+      "kiểm tra": "valid_seasonal_20160815.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "1,172,130 dòng"
+    },
+    {
+      "kiểm tra": "train_20150611.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "44,512 dòng"
+    },
+    {
+      "kiểm tra": "train_20150624.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "42,947 dòng"
+    },
+    {
+      "kiểm tra": "train_20150707.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "44,352 dòng"
+    },
+    {
+      "kiểm tra": "train_20150720.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "44,448 dòng"
+    },
+    {
+      "kiểm tra": "train_20150802.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "45,504 dòng"
+    },
+    {
+      "kiểm tra": "train_20150815.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "44,736 dòng"
+    },
+    {
+      "kiểm tra": "train_20150828.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "44,576 dòng"
+    },
+    {
+      "kiểm tra": "train_20150910.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "47,760 dòng"
+    },
+    {
+      "kiểm tra": "train_20150923.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "47,936 dòng"
+    },
+    {
+      "kiểm tra": "train_20151006.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "50,464 dòng"
+    },
+    {
+      "kiểm tra": "train_20151019.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "50,336 dòng"
+    },
+    {
+      "kiểm tra": "train_20151101.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "52,288 dòng"
+    },
+    {
+      "kiểm tra": "train_20151114.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "54,272 dòng"
+    },
+    {
+      "kiểm tra": "train_20151127.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "54,352 dòng"
+    },
+    {
+      "kiểm tra": "train_20151210.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "48,495 dòng"
+    },
+    {
+      "kiểm tra": "train_20151223.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "45,599 dòng"
+    },
+    {
+      "kiểm tra": "train_20160105.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "52,352 dòng"
+    },
+    {
+      "kiểm tra": "train_20160118.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "52,560 dòng"
+    },
+    {
+      "kiểm tra": "train_20160131.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "53,440 dòng"
+    },
+    {
+      "kiểm tra": "train_20160213.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "52,784 dòng"
+    },
+    {
+      "kiểm tra": "train_20160226.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "52,928 dòng"
+    },
+    {
+      "kiểm tra": "train_20160310.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "53,024 dòng"
+    },
+    {
+      "kiểm tra": "train_20160323.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "53,936 dòng"
+    },
+    {
+      "kiểm tra": "train_20160622.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "56,528 dòng"
+    },
+    {
+      "kiểm tra": "train_20160705.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "55,888 dòng"
+    },
+    {
+      "kiểm tra": "train_20160718.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "55,632 dòng"
+    },
+    {
+      "kiểm tra": "train_20160731.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "56,684 dòng"
+    },
+    {
+      "kiểm tra": "train_20160813.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "55,519 dòng"
+    },
+    {
+      "kiểm tra": "train_20160826.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "54,576 dòng"
+    },
+    {
+      "kiểm tra": "train_20160908.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "55,200 dòng"
+    },
+    {
+      "kiểm tra": "train_20160921.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "54,704 dòng"
+    },
+    {
+      "kiểm tra": "train_20161004.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "55,056 dòng"
+    },
+    {
+      "kiểm tra": "train_20161017.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "56,049 dòng"
+    },
+    {
+      "kiểm tra": "train_20161030.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "56,468 dòng"
+    },
+    {
+      "kiểm tra": "train_20161112.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "59,028 dòng"
+    },
+    {
+      "kiểm tra": "train_20161125.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "58,764 dòng"
+    },
+    {
+      "kiểm tra": "train_20161208.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "61,376 dòng"
+    },
+    {
+      "kiểm tra": "train_20161221.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "53,901 dòng"
+    },
+    {
+      "kiểm tra": "train_20170103.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "58,736 dòng"
+    },
+    {
+      "kiểm tra": "train_20170116.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "59,312 dòng"
+    },
+    {
+      "kiểm tra": "train_20170129.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "59,200 dòng"
+    },
+    {
+      "kiểm tra": "train_20170211.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "60,880 dòng"
+    },
+    {
+      "kiểm tra": "train_20170224.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "60,816 dòng"
+    },
+    {
+      "kiểm tra": "train_20170309.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "61,440 dòng"
+    },
+    {
+      "kiểm tra": "train_20170322.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "60,832 dòng"
+    },
+    {
+      "kiểm tra": "train_20170404.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "59,152 dòng"
+    },
+    {
+      "kiểm tra": "train_20170417.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "61,408 dòng"
+    },
+    {
+      "kiểm tra": "train_20170430.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "63,184 dòng"
+    },
+    {
+      "kiểm tra": "train_20170513.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "63,248 dòng"
+    },
+    {
+      "kiểm tra": "train_20170526.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "64,688 dòng"
+    },
+    {
+      "kiểm tra": "train_20170608.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "64,896 dòng"
+    },
+    {
+      "kiểm tra": "train_20170621.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "64,272 dòng"
+    },
+    {
+      "kiểm tra": "train_20170704.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "64,624 dòng"
+    },
+    {
+      "kiểm tra": "train_20170717.parquet: h, ngày tương lai, nhãn, store-day",
+      "kết quả": "PASS",
+      "chi tiết": "64,928 dòng"
+    }
+  ],
+  "bruteforce_max_abs_diff": 1.609522399803609e-07,
+  "leakage_perturbation_test": "PASS",
+  "label_summary": [
+    {
+      "role": "train",
+      "rows": 2970590,
+      "zero_share_pct": 35.27117508643064,
+      "mean_y_log": 1.1123636960983276,
+      "mean_w": 1.058325171470642,
+      "stale_share_pct": 9.413281536664433
+    },
+    {
+      "role": "valid_last16",
+      "rows": 2786240,
+      "zero_share_pct": 39.88019696795681,
+      "mean_y_log": 1.0126162767410278,
+      "mean_w": 1.056710124015808,
+      "stale_share_pct": 13.532789709429194
+    },
+    {
+      "role": "valid_seasonal",
+      "rows": 1172130,
+      "zero_share_pct": 35.72922798665677,
+      "mean_y_log": 1.0699056386947632,
+      "mean_w": 1.057434320449829,
+      "stale_share_pct": 9.293508399238991
+    }
+  ],
+  "pair_status_test": [
+    {
+      "nhóm": "cặp cũ, có bán trong 28 ngày",
+      "số cặp": 149704,
+      "tỷ lệ (%)": 71.06629829008706
+    },
+    {
+      "nhóm": "cặp cũ, ngừng bán > 28 ngày",
+      "số cặp": 16509,
+      "tỷ lệ (%)": 7.837021846250249
+    },
+    {
+      "nhóm": "cặp mới, item đã có",
+      "số cặp": 41201,
+      "tỷ lệ (%)": 19.5586127013966
+    },
+    {
+      "nhóm": "cặp mới, item chưa từng có",
+      "số cặp": 3240,
+      "tỷ lệ (%)": 1.5380671622660855
+    }
+  ],
+  "baselines": [
+    {
+      "baseline": "B2c mean_28",
+      "NWRMSLE": 0.6385877968946477
+    },
+    {
+      "baseline": "B2b mean_14",
+      "NWRMSLE": 0.6462277175717772
+    },
+    {
+      "baseline": "B2a mean_7",
+      "NWRMSLE": 0.6554802906110464
+    },
+    {
+      "baseline": "B4 dow_mean_8 + item_mean_28",
+      "NWRMSLE": 0.6605799137436202
+    },
+    {
+      "baseline": "B3b dow_mean_8",
+      "NWRMSLE": 0.6609469144575072
+    },
+    {
+      "baseline": "B3a dow_mean_4",
+      "NWRMSLE": 0.6757441120887401
+    },
+    {
+      "baseline": "B1 dow_last",
+      "NWRMSLE": 0.8174903459937864
+    },
+    {
+      "baseline": "B0 (hằng số)",
+      "NWRMSLE": 1.071528485451591
+    },
+    {
+      "baseline": "B-zero",
+      "NWRMSLE": 1.481961374343642
+    }
+  ],
+  "psi_top": [
+    {
+      "feature": "store_promo_share_t",
+      "psi_test_known_pairs": 0.9443296781973983,
+      "train_mean": 0.05700754001736641,
+      "test_mean": 0.05914983153343201,
+      "train_null_pct": 0.0,
+      "test_null_pct_all": 0.0
+    },
+    {
+      "feature": "pair_age_days",
+      "psi_test_known_pairs": 0.7235597093232775,
+      "train_mean": 856.4349975585938,
+      "test_mean": 1120.8330078125,
+      "train_null_pct": 0.0,
+      "test_null_pct_all": 21.096679863662686
+    },
+    {
+      "feature": "store_mean_28",
+      "psi_test_known_pairs": 0.051366084283723204,
+      "train_mean": 1.1174025535583496,
+      "test_mean": 1.0597456693649292,
+      "train_null_pct": 0.0,
+      "test_null_pct_all": 0.0
+    },
+    {
+      "feature": "store_tx_28",
+      "psi_test_known_pairs": 0.04856403013870302,
+      "train_mean": 1741.262451171875,
+      "test_mean": 1709.1805419921875,
+      "train_null_pct": 0.034506815095981455,
+      "test_null_pct_all": 0.0
+    },
+    {
+      "feature": "promo_h_sum",
+      "psi_test_known_pairs": 0.02732115753779743,
+      "train_mean": 0.9117200374603271,
+      "test_mean": 1.1551804542541504,
+      "train_null_pct": 0.0,
+      "test_null_pct_all": 0.0
+    },
+    {
+      "feature": "mean_7",
+      "psi_test_known_pairs": 0.010934654222799914,
+      "train_mean": 1.1140687465667725,
+      "test_mean": 1.0210107564926147,
+      "train_null_pct": 0.0,
+      "test_null_pct_all": 21.096679863662686
+    },
+    {
+      "feature": "item_mean_28",
+      "psi_test_known_pairs": 0.009155841933607354,
+      "train_mean": 1.110517144203186,
+      "test_mean": 1.0597456693649292,
+      "train_null_pct": 0.0,
+      "test_null_pct_all": 1.5380671622660855
+    },
+    {
+      "feature": "act_28",
+      "psi_test_known_pairs": 0.004507703368384234,
+      "train_mean": 0.6465497016906738,
+      "test_mean": 0.6304733157157898,
+      "train_null_pct": 0.0,
+      "test_null_pct_all": 21.096679863662686
+    },
+    {
+      "feature": "item_promo_share_t",
+      "psi_test_known_pairs": 0.004246945538972782,
+      "train_mean": 0.05714954063296318,
+      "test_mean": 0.06422112137079239,
+      "train_null_pct": 0.0,
+      "test_null_pct_all": 0.0
+    },
+    {
+      "feature": "mean_28",
+      "psi_test_known_pairs": 0.004009614529331514,
+      "train_mean": 1.1133805513381958,
+      "test_mean": 1.0597456693649292,
+      "train_null_pct": 0.0,
+      "test_null_pct_all": 21.096679863662686
+    }
+  ],
+  "fold_summary": [
+    {
+      "fold": "V1_last16",
+      "valid_origin": "2017-07-30T00:00:00",
+      "train_origins": 53,
+      "train_rows": 2905662,
+      "first_train_origin": "2015-06-11T00:00:00",
+      "last_train_origin": "2017-07-04T00:00:00"
+    },
+    {
+      "fold": "V2_seasonal",
+      "valid_origin": "2016-08-15T00:00:00",
+      "train_origins": 26,
+      "train_rows": 1301649,
+      "first_train_origin": "2015-06-11T00:00:00",
+      "last_train_origin": "2016-07-18T00:00:00"
+    }
+  ],
+  "estimated_train_memory_gb": 0.8299732580780983
+}

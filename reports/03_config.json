@@ -1,0 +1,160 @@
+{
+  "created_at": "2026-10-26T17:18:46",
+  "seed": 42,
+  "horizon": 16,
+  "lookback": 224,
+  "windows": [
+    3,
+    7,
+    14,
+    28,
+    56,
+    112,
+    224
+  ],
+  "dow_occurrences": [
+    4,
+    8,
+    16
+  ],
+  "origin_step_days": 13,
+  "train_origin_start": "2015-06-01T00:00:00",
+  "test_origin": "2017-08-15T00:00:00",
+  "quake_window": [
+    "2016-04-16T00:00:00",
+    "2016-05-15T00:00:00"
+  ],
+  "target_train_rows": 3000000,
+  "train_pair_frac": 0.023228259835402693,
+  "feature_dir": "data/processed/features",
+  "target": "y_log = log1p(clip(unit_sales, 0))",
+  "weight": "w (perishable = 1.25, còn lại 1.0)",
+  "train_origin_rule": "mốc huấn luyện T_tr dùng cho fold F nếu T_tr + HORIZON <= T_F",
+  "folds": [
+    {
+      "fold": "V1_last16",
+      "valid_origin": "2017-07-30 00:00:00",
+      "valid_role": "valid_last16"
+    },
+    {
+      "fold": "V2_seasonal",
+      "valid_origin": "2016-08-15 00:00:00",
+      "valid_role": "valid_seasonal"
+    }
+  ],
+  "feature_groups": {
+    "cùng thứ trong tuần": [
+      "dow_mean_8",
+      "dow_mean_4",
+      "dow_mean_16",
+      "dow_act_8",
+      "dow_last",
+      "dow_ratio_8"
+    ],
+    "exploratory": [
+      "oil_T",
+      "oil_chg_28"
+    ],
+    "khuyến mãi lịch sử": [
+      "promo_days_28",
+      "promo_days_7",
+      "promo_share_sale_days_28"
+    ],
+    "khuyến mãi tương lai (rủi ro)": [
+      "promo_h_sum",
+      "promo_t",
+      "item_promo_share_t",
+      "store_promo_share_t",
+      "promo_known_t"
+    ],
+    "lịch / ngày lễ": [
+      "woy",
+      "h",
+      "dom",
+      "days_to_month_end",
+      "dow",
+      "days_to_nat_hol",
+      "days_since_nat_hol",
+      "month",
+      "is_loc_hol",
+      "is_payday15",
+      "is_nat_hol",
+      "is_jan1",
+      "is_dec24_31",
+      "days_to_xmas",
+      "is_reg_hol",
+      "is_event_nat",
+      "is_workday"
+    ],
+    "lịch sử cặp": [
+      "mean_28",
+      "mean_14",
+      "mean_56",
+      "mean_7",
+      "mean_112",
+      "mean_3",
+      "act_28",
+      "act_56",
+      "mean_224",
+      "act_112",
+      "act_14",
+      "max_28",
+      "act_7",
+      "meanpos_28",
+      "meanpos_112",
+      "days_since_last_sale",
+      "std_28",
+      "pair_age_days",
+      "trend_28_112",
+      "trend_7_28"
+    ],
+    "metadata": [
+      "perishable",
+      "store_type",
+      "item_class",
+      "store_state",
+      "store_city",
+      "store_cluster",
+      "item_family"
+    ],
+    "phân cấp / cửa hàng": [
+      "item_mean_28",
+      "item_act_28",
+      "family_store_mean_28",
+      "class_mean_28",
+      "item_nstores_active_28",
+      "store_mean_28",
+      "store_tx_7",
+      "store_tx_28",
+      "store_nitems_active_28",
+      "item_age_days",
+      "store_tx_ratio",
+      "store_dow_idx",
+      "store_age_days"
+    ],
+    "trạng thái cặp": [
+      "pair_status",
+      "has_history"
+    ]
+  },
+  "meta_columns": [
+    "store_nbr",
+    "item_nbr",
+    "origin",
+    "date",
+    "id",
+    "y",
+    "y_log",
+    "w"
+  ],
+  "status_names": {
+    "0": "cặp cũ, có bán trong 28 ngày",
+    "1": "cặp cũ, ngừng bán > 28 ngày",
+    "2": "cặp mới, item đã có",
+    "3": "cặp mới, item chưa từng có"
+  },
+  "baseline_best": {
+    "name": "B2c mean_28",
+    "nwrmsle": 0.6385877968946477
+  }
+}
