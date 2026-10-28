@@ -167,33 +167,22 @@ Hiểu & kiểm tra dữ liệu → EDA → Làm sạch → Tạo đặc trưng 
 
 ---
 
-### Giai đoạn 4 — Tạo "bộ dữ liệu làm việc" (đầu notebook `03`)
+### Giai đoạn 4 — Tạo bộ dữ liệu làm việc theo từng mốc dự báo (`03`)
 
-**Mục tiêu:** có một bản dữ liệu đủ nhỏ để vừa RAM nhưng vẫn đủ để học.
+**Mục tiêu:** tạo dữ liệu đặc trưng có giới hạn kích thước, tránh nạp toàn bộ `train_cleaned.parquet` vào RAM.
 
-**Vì sao cần:** `train_cleaned.parquet` nặng ~1.1 GB trên đĩa nhưng khi nạp vào RAM sẽ phình ra nhiều lần. Ngoài ra, dữ liệu 2013–2014 ít liên quan đến việc dự báo tháng 8/2017 và là nơi `onpromotion` thiếu nhiều (cần xác nhận).
+**Cách triển khai:** đọc lịch sử theo từng mốc dự báo, lấy mẫu cặp cửa hàng–mặt hàng và lưu kết quả từng mốc; không tạo riêng `train_recent.parquet`.
 
-- [ ] Đếm số dòng theo năm/tháng để biết "dữ liệu gần đây" nặng cỡ nào
-- [ ] Chọn mốc bắt đầu, ví dụ **2016-08-01** (khoảng 1 năm trước ngày cắt). Có thể bắt đầu nhỏ hơn (từ 2017-01-01) rồi mở rộng nếu RAM cho phép
-- [ ] Đọc có lọc (không cần đọc cả file), ví dụ:
+- [x] Xác định khoảng ngày của từng row group trong Parquet để đọc đúng cửa sổ cần dùng.
+- [x] Cấu hình mốc dự báo bắt đầu từ `2015-06-01`, lịch sử 224 ngày và horizon 16 ngày.
+- [x] Đọc có lọc theo cửa sổ ngày và cặp; dùng ma trận lịch sử `float32`.
+- [x] Lấy mẫu cặp sau khi tính feature phân cấp, giới hạn khoảng 3 triệu dòng huấn luyện.
+- [x] Lưu từng mốc thành file Parquet trong `data/processed/features/`.
+- [x] Ghi cấu hình vào `reports/03_config.json` và kiểm tra RAM.
 
-```python
-import pandas as pd
+**Kết quả:** tạo 54 mốc huấn luyện với 2.970.590 dòng, cùng hai tập kiểm định và tập test.
 
-df = pd.read_parquet(
-    "../data/processed/train_cleaned.parquet",
-    columns=["date", "store_nbr", "item_nbr", "unit_sales", "onpromotion"],
-    filters=[("date", ">=", pd.Timestamp("2016-08-01"))],
-)
-df["unit_sales"] = df["unit_sales"].astype("float32")   # tiết kiệm RAM
-print(df.shape, df.memory_usage(deep=True).sum() / 1024**3, "GB")
-```
-
-- [ ] Kiểm tra RAM sau khi nạp (`psutil.virtual_memory().available`). Nếu còn dưới ~1 GB thì thu hẹp khoảng thời gian
-- [ ] Lưu ra `data/interim/train_recent.parquet`
-- [ ] Ghi vào notebook: mốc ngày đã chọn và lý do
-
-**Lưu ý:** nếu vẫn thiếu RAM, dùng DuckDB để lọc và gộp trực tiếp trên file Parquet, rồi chỉ lấy kết quả đã gộp.
+**Chuyển sang bước 04** chọn nhóm feature và khoảng mốc huấn luyện phù hợp RAM. Chưa coi việc nạp toàn bộ feature cùng lúc là an toàn.
 
 ---
 
