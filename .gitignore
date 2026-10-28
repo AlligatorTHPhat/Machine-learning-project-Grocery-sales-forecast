@@ -11,3 +11,5 @@ docs/raw/
 
 data/processed/*.parquet
 data/data/processed/
+
+venv/
