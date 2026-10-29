@@ -1,0 +1,198 @@
+{
+  "run_id": "20261029_225329",
+  "created_at_utc": "2026-10-29T17:33:00.618249+00:00",
+  "source_report_sha256": "9ea3b151a9f54a56a3c7b21894f32309b3bdb4377aca61f59076bac6c52f2412",
+  "prediction_sha256": {
+    "V1_last16_safe.parquet": "1ecdc4b1710eed322cb19c9bb506213ba2c2f520dee86127443d0a890cd89664",
+    "V1_last16_plus_future_promo.parquet": "58519b029bcc69e17b1bf70f93306b4bfc792085f01e9f8e22623dd9585d14de",
+    "V1_last16_plus_oil.parquet": "2d575e3e8b4be61f388130760793a1bc9cdcecff64cd798abffe12d99574051e",
+    "V1_last16_linear_safe.parquet": "7d18fdc712fdd63b7122a509b5aca86e92548bf1acfc95f8ae829e26012024b7",
+    "V1_last16_ridge_safe.parquet": "2b0994854bb6119aaf70d8115d7f6276a24f6ddc1fda5dd1eac2761e6f5c0960",
+    "V1_last16_extratrees_safe.parquet": "e8ec9fbcd34dcc9085ff9e233c92f5ba4949570e0db1b3cc2c8f1ed61986e9f3",
+    "V2_seasonal_safe.parquet": "d7a749e29785785e304102ea984cc80a4229b6f8d6efe2df91f68ceaffadd834",
+    "V2_seasonal_plus_future_promo.parquet": "690652de0a098619f80eb97b75b2bb26e5000aa24edf96b11a8ba87758eb1d9b",
+    "V2_seasonal_plus_oil.parquet": "b5a5df40302b302da605660ccd21422a6fec819df0abbddca723f241a1dcf2d3",
+    "V2_seasonal_linear_safe.parquet": "9bb5417069f36a0629f4f91b59c2701bf41ac72541a598767ab321d984baab93",
+    "V2_seasonal_ridge_safe.parquet": "7b9a8e3696bbf345389738c57a12eb64ecf2613fc2757e1e400598e315755a17",
+    "V2_seasonal_extratrees_safe.parquet": "fa4431c78c5c3d19d1c92693b0dae6c9e3d8139eaf5eb571f8722d06b83d3a3b"
+  },
+  "checks": [
+    {
+      "fold": "V1_last16",
+      "experiment": "safe",
+      "status": "OK",
+      "max_score_difference": 7.857637873698309e-10
+    },
+    {
+      "fold": "V1_last16",
+      "experiment": "plus_future_promo",
+      "status": "OK",
+      "max_score_difference": 6.135459917899766e-10
+    },
+    {
+      "fold": "V1_last16",
+      "experiment": "plus_oil",
+      "status": "OK",
+      "max_score_difference": 8.81455797241415e-10
+    },
+    {
+      "fold": "V1_last16",
+      "experiment": "linear_safe",
+      "status": "OK",
+      "max_score_difference": 5.958955551221834e-10
+    },
+    {
+      "fold": "V1_last16",
+      "experiment": "ridge_safe",
+      "status": "OK",
+      "max_score_difference": 7.141527924581226e-10
+    },
+    {
+      "fold": "V1_last16",
+      "experiment": "extratrees_safe",
+      "status": "OK",
+      "max_score_difference": 8.064062750889889e-10
+    },
+    {
+      "fold": "V2_seasonal",
+      "experiment": "safe",
+      "status": "OK",
+      "max_score_difference": 6.262942942036887e-10
+    },
+    {
+      "fold": "V2_seasonal",
+      "experiment": "plus_future_promo",
+      "status": "OK",
+      "max_score_difference": 1.1881498007682012e-09
+    },
+    {
+      "fold": "V2_seasonal",
+      "experiment": "plus_oil",
+      "status": "OK",
+      "max_score_difference": 6.608041891453809e-10
+    },
+    {
+      "fold": "V2_seasonal",
+      "experiment": "linear_safe",
+      "status": "OK",
+      "max_score_difference": 8.366455306330067e-10
+    },
+    {
+      "fold": "V2_seasonal",
+      "experiment": "ridge_safe",
+      "status": "OK",
+      "max_score_difference": 1.379611980212303e-09
+    },
+    {
+      "fold": "V2_seasonal",
+      "experiment": "extratrees_safe",
+      "status": "OK",
+      "max_score_difference": 1.526083481806495e-09
+    }
+  ],
+  "safe_beats_baseline_all_folds": true,
+  "folds_without_full_cold_start": [
+    "V1_last16",
+    "V2_seasonal"
+  ],
+  "independent_holdout": false,
+  "test_accuracy_known": false,
+  "comparison": [
+    {
+      "fold": "V1_last16",
+      "experiment": "extratrees_safe",
+      "B2c_mean28": 0.6385877998745827,
+      "model": 0.6136217571280189,
+      "improvement_pct": 3.909570892439075,
+      "recomputed_06": true
+    },
+    {
+      "fold": "V1_last16",
+      "experiment": "linear_safe",
+      "B2c_mean28": 0.6385877998745827,
+      "model": 0.6197484073053391,
+      "improvement_pct": 2.9501648125666704,
+      "recomputed_06": true
+    },
+    {
+      "fold": "V1_last16",
+      "experiment": "plus_future_promo",
+      "B2c_mean28": 0.6385877998745827,
+      "model": 0.5914508866690212,
+      "improvement_pct": 7.381430277061204,
+      "recomputed_06": true
+    },
+    {
+      "fold": "V1_last16",
+      "experiment": "plus_oil",
+      "B2c_mean28": 0.6385877998745827,
+      "model": 0.6143322648514637,
+      "improvement_pct": 3.7983085533238627,
+      "recomputed_06": true
+    },
+    {
+      "fold": "V1_last16",
+      "experiment": "ridge_safe",
+      "B2c_mean28": 0.6385877998745827,
+      "model": 0.6192082134908731,
+      "improvement_pct": 3.0347567534982245,
+      "recomputed_06": true
+    },
+    {
+      "fold": "V1_last16",
+      "experiment": "safe",
+      "B2c_mean28": 0.6385877998745827,
+      "model": 0.6140028489417227,
+      "improvement_pct": 3.849893614893423,
+      "recomputed_06": true
+    },
+    {
+      "fold": "V2_seasonal",
+      "experiment": "extratrees_safe",
+      "B2c_mean28": 0.6075334558296785,
+      "model": 0.5853080124630603,
+      "improvement_pct": 3.658307728298856,
+      "recomputed_06": true
+    },
+    {
+      "fold": "V2_seasonal",
+      "experiment": "linear_safe",
+      "B2c_mean28": 0.6075334558296785,
+      "model": 0.5879398533963283,
+      "improvement_pct": 3.2251067402686933,
+      "recomputed_06": true
+    },
+    {
+      "fold": "V2_seasonal",
+      "experiment": "plus_future_promo",
+      "B2c_mean28": 0.6075334558296785,
+      "model": 0.5715744811127278,
+      "improvement_pct": 5.918846834178597,
+      "recomputed_06": true
+    },
+    {
+      "fold": "V2_seasonal",
+      "experiment": "plus_oil",
+      "B2c_mean28": 0.6075334558296785,
+      "model": 0.5865393696463741,
+      "improvement_pct": 3.4556263497676616,
+      "recomputed_06": true
+    },
+    {
+      "fold": "V2_seasonal",
+      "experiment": "ridge_safe",
+      "B2c_mean28": 0.6075334558296785,
+      "model": 0.5876179574894933,
+      "improvement_pct": 3.278090802915146,
+      "recomputed_06": true
+    },
+    {
+      "fold": "V2_seasonal",
+      "experiment": "safe",
+      "B2c_mean28": 0.6075334558296785,
+      "model": 0.586527021879604,
+      "improvement_pct": 3.4576587920392066,
+      "recomputed_06": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "run_id": "20261029_225329",
+  "report": "reports\\05_runs\\20261029_225329\\05_model_training_report.json",
+  "models": "models\\05_runs\\20261029_225329",
+  "predictions": "data\\interim\\05_runs\\20261029_225329"
+}

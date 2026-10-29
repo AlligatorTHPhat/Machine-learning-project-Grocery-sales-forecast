@@ -1,0 +1,313 @@
+{
+  "created_at_utc": "2026-10-29T15:16:21.089230+00:00",
+  "versions": {
+    "python": "3.11.9",
+    "numpy": "2.4.6",
+    "pandas": "3.1.0",
+    "pyarrow": "26.0.0"
+  },
+  "source_config_sha256": "b0d23c2231ecb1bc48001fa8e1c56a26bd296c3f5733a7ab4c78672d07f19cfa",
+  "source_manifest_sha256": "db18272e7a7e77a2187666b792621527c801e563b127ca2e20d7e14c20cd0cdd",
+  "batch_size": 65536,
+  "train_origin_min": null,
+  "metric": "sqrt(sum(w * (pred_log - y_log)^2) / sum(w))",
+  "folds": [
+    {
+      "fold": "V1_last16",
+      "valid_origin": "2017-07-30",
+      "train_origins": 53,
+      "train_rows": 2905662,
+      "first_origin": "2015-06-11",
+      "last_origin": "2017-07-04",
+      "valid_rows": 2786240
+    },
+    {
+      "fold": "V2_seasonal",
+      "valid_origin": "2016-08-15",
+      "train_origins": 26,
+      "train_rows": 1301649,
+      "first_origin": "2015-06-11",
+      "last_origin": "2016-07-18",
+      "valid_rows": 1172130
+    }
+  ],
+  "constants": [
+    {
+      "fold": "V1_last16",
+      "constant_log": 1.1296699778,
+      "constant_units": 2.0946350335,
+      "train_rows": 2905662,
+      "weight_sum": 3075262.25
+    },
+    {
+      "fold": "V2_seasonal",
+      "constant_log": 1.1760007244,
+      "constant_units": 2.2413850546,
+      "train_rows": 1301649,
+      "weight_sum": 1378659.25
+    }
+  ],
+  "overall": [
+    {
+      "fold": "V1_last16",
+      "baseline": "B2c_mean28",
+      "group": "overall",
+      "value": "all",
+      "rows": 2786240,
+      "weight_sum": 2944248.0,
+      "weighted_sse": 1200647.7822754364,
+      "NWRMSLE": 0.6385877999
+    },
+    {
+      "fold": "V1_last16",
+      "baseline": "B5_mean28_hierarchy",
+      "group": "overall",
+      "value": "all",
+      "rows": 2786240,
+      "weight_sum": 2944248.0,
+      "weighted_sse": 1200647.7822754364,
+      "NWRMSLE": 0.6385877999
+    },
+    {
+      "fold": "V1_last16",
+      "baseline": "B2b_mean14",
+      "group": "overall",
+      "value": "all",
+      "rows": 2786240,
+      "weight_sum": 2944248.0,
+      "weighted_sse": 1229548.1933347527,
+      "NWRMSLE": 0.6462277207
+    },
+    {
+      "fold": "V1_last16",
+      "baseline": "B2a_mean7",
+      "group": "overall",
+      "value": "all",
+      "rows": 2786240,
+      "weight_sum": 2944248.0,
+      "weighted_sse": 1265009.1530059255,
+      "NWRMSLE": 0.6554802936
+    },
+    {
+      "fold": "V1_last16",
+      "baseline": "B4_dow8_item",
+      "group": "overall",
+      "value": "all",
+      "rows": 2786240,
+      "weight_sum": 2944248.0,
+      "weighted_sse": 1284769.2113970674,
+      "NWRMSLE": 0.6605799167
+    },
+    {
+      "fold": "V1_last16",
+      "baseline": "B3b_dow8",
+      "group": "overall",
+      "value": "all",
+      "rows": 2786240,
+      "weight_sum": 2944248.0,
+      "weighted_sse": 1286197.1755018292,
+      "NWRMSLE": 0.6609469174
+    },
+    {
+      "fold": "V1_last16",
+      "baseline": "B3a_dow4",
+      "group": "overall",
+      "value": "all",
+      "rows": 2786240,
+      "weight_sum": 2944248.0,
+      "weighted_sse": 1344432.2848325016,
+      "NWRMSLE": 0.6757441149
+    },
+    {
+      "fold": "V1_last16",
+      "baseline": "B1_dow_last",
+      "group": "overall",
+      "value": "all",
+      "rows": 2786240,
+      "weight_sum": 2944248.0,
+      "weighted_sse": 1967612.8872140702,
+      "NWRMSLE": 0.8174903501
+    },
+    {
+      "fold": "V1_last16",
+      "baseline": "B0_constant",
+      "group": "overall",
+      "value": "all",
+      "rows": 2786240,
+      "weight_sum": 2944248.0,
+      "weighted_sse": 3390060.802774647,
+      "NWRMSLE": 1.073041576
+    },
+    {
+      "fold": "V1_last16",
+      "baseline": "B-zero",
+      "group": "overall",
+      "value": "all",
+      "rows": 2786240,
+      "weight_sum": 2944248.0,
+      "weighted_sse": 6466185.541420131,
+      "NWRMSLE": 1.4819613823
+    },
+    {
+      "fold": "V2_seasonal",
+      "baseline": "B2c_mean28",
+      "group": "overall",
+      "value": "all",
+      "rows": 1172130,
+      "weight_sum": 1239450.5,
+      "weighted_sse": 457477.337194393,
+      "NWRMSLE": 0.6075334558
+    },
+    {
+      "fold": "V2_seasonal",
+      "baseline": "B5_mean28_hierarchy",
+      "group": "overall",
+      "value": "all",
+      "rows": 1172130,
+      "weight_sum": 1239450.5,
+      "weighted_sse": 457477.337194393,
+      "NWRMSLE": 0.6075334558
+    },
+    {
+      "fold": "V2_seasonal",
+      "baseline": "B2b_mean14",
+      "group": "overall",
+      "value": "all",
+      "rows": 1172130,
+      "weight_sum": 1239450.5,
+      "weighted_sse": 464280.9136568518,
+      "NWRMSLE": 0.6120343844
+    },
+    {
+      "fold": "V2_seasonal",
+      "baseline": "B4_dow8_item",
+      "group": "overall",
+      "value": "all",
+      "rows": 1172130,
+      "weight_sum": 1239450.5,
+      "weighted_sse": 482984.7802792982,
+      "NWRMSLE": 0.6242407695
+    },
+    {
+      "fold": "V2_seasonal",
+      "baseline": "B3b_dow8",
+      "group": "overall",
+      "value": "all",
+      "rows": 1172130,
+      "weight_sum": 1239450.5,
+      "weighted_sse": 483517.039861517,
+      "NWRMSLE": 0.6245846382
+    },
+    {
+      "fold": "V2_seasonal",
+      "baseline": "B2a_mean7",
+      "group": "overall",
+      "value": "all",
+      "rows": 1172130,
+      "weight_sum": 1239450.5,
+      "weighted_sse": 488788.8261358857,
+      "NWRMSLE": 0.6279803306
+    },
+    {
+      "fold": "V2_seasonal",
+      "baseline": "B3a_dow4",
+      "group": "overall",
+      "value": "all",
+      "rows": 1172130,
+      "weight_sum": 1239450.5,
+      "weighted_sse": 507240.9628313928,
+      "NWRMSLE": 0.6397238844
+    },
+    {
+      "fold": "V2_seasonal",
+      "baseline": "B1_dow_last",
+      "group": "overall",
+      "value": "all",
+      "rows": 1172130,
+      "weight_sum": 1239450.5,
+      "weighted_sse": 767762.2966255788,
+      "NWRMSLE": 0.7870436095
+    },
+    {
+      "fold": "V2_seasonal",
+      "baseline": "B0_constant",
+      "group": "overall",
+      "value": "all",
+      "rows": 1172130,
+      "weight_sum": 1239450.5,
+      "weighted_sse": 1390514.9999041958,
+      "NWRMSLE": 1.0591884725
+    },
+    {
+      "fold": "V2_seasonal",
+      "baseline": "B-zero",
+      "group": "overall",
+      "value": "all",
+      "rows": 1172130,
+      "weight_sum": 1239450.5,
+      "weighted_sse": 2841248.0154015734,
+      "NWRMSLE": 1.514049169
+    }
+  ],
+  "winners_by_fold": [
+    {
+      "fold": "V1_last16",
+      "baseline": "B2c_mean28",
+      "NWRMSLE": 0.6385877999
+    },
+    {
+      "fold": "V2_seasonal",
+      "baseline": "B2c_mean28",
+      "NWRMSLE": 0.6075334558
+    }
+  ],
+  "test_coverage": [
+    {
+      "pair_status": 0,
+      "rows": 2395264,
+      "weight_sum": 2527852.0,
+      "row_share": 0.7106629829,
+      "weight_share": 0.7072164925
+    },
+    {
+      "pair_status": 1,
+      "rows": 264144,
+      "weight_sum": 282220.0,
+      "row_share": 0.0783702185,
+      "weight_share": 0.0789566155
+    },
+    {
+      "pair_status": 2,
+      "rows": 659216,
+      "weight_sum": 712456.0,
+      "row_share": 0.195586127,
+      "weight_share": 0.1993236287
+    },
+    {
+      "pair_status": 3,
+      "rows": 51840,
+      "weight_sum": 51840.0,
+      "row_share": 0.0153806716,
+      "weight_share": 0.0145032632
+    }
+  ],
+  "test_prediction_finite_check": "PASS",
+  "cold_start_quality_validated": false,
+  "future_promo_used": false,
+  "oil_used": false,
+  "limits": [
+    "V1/V2 không đo cặp mới nếu không có nhóm 2/3.",
+    "Ước lượng cơ cấu test chỉ áp dụng nhóm đã đo và giả định sai số nhóm ổn định.",
+    "Chưa thử bỏ qua ngày vắng, khuyến mãi tương lai hoặc giá dầu.",
+    "Fingerprint cấu hình/manifest không thay cho checksum nội dung Parquet."
+  ],
+  "outputs": [
+    "reports\\table\\04_fold_plan.csv",
+    "reports\\table\\04_constants.csv",
+    "reports\\table\\04_baselines.csv",
+    "reports\\table\\04_baseline_breakdown.csv",
+    "reports\\table\\04_baseline_comparison.csv",
+    "reports\\table\\04_test_coverage.csv",
+    "reports\\table\\04_test_mix_estimates.csv"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "notebook": "02_data_cleaning.ipynb",
-  "project_root": "/home/phat/Documents/Project/Machine Learning/Grocery-sales-forecast",
+  "project_root": "D:\\Machine-learning-project-Grocery-sales-forecast",
   "output_format": "parquet",
   "chunk_size": 100000,
   "policies": {
@@ -12,137 +12,64 @@
     "oil_missing_imputed": false,
     "date_gaps_filled": false,
     "date_normalization": "datetime",
-    "onpromotion_normalization": "nullable boolean; missing preserved",
-    "raw_files_unchanged_verified": true,
-    "implicit_zero_rows_added": false,
-    "outliers_removed": false
+    "onpromotion_normalization": "nullable boolean; missing preserved"
   },
   "schema_validation": [
     {
       "file": "train.csv",
-      "column": "id",
-      "expected": "int64",
-      "actual": "int64",
-      "ok": true
-    },
-    {
-      "file": "train.csv",
-      "column": "date",
-      "expected": "timestamp",
-      "actual": "timestamp[us]",
-      "ok": true
-    },
-    {
-      "file": "train.csv",
-      "column": "store_nbr",
-      "expected": "int32",
-      "actual": "int32",
-      "ok": true
-    },
-    {
-      "file": "train.csv",
-      "column": "item_nbr",
-      "expected": "int32",
-      "actual": "int32",
-      "ok": true
-    },
-    {
-      "file": "train.csv",
-      "column": "unit_sales",
-      "expected": "double",
-      "actual": "double",
-      "ok": true
-    },
-    {
-      "file": "train.csv",
-      "column": "onpromotion",
-      "expected": "bool",
-      "actual": "bool",
-      "ok": true
+      "status": "OK",
+      "missing_required_columns": [],
+      "extra_columns": [],
+      "actual_column_count": 6,
+      "expected_column_count": 6
     },
     {
       "file": "test.csv",
-      "column": "id",
-      "expected": "int64",
-      "actual": "int64",
-      "ok": true
-    },
-    {
-      "file": "test.csv",
-      "column": "date",
-      "expected": "timestamp",
-      "actual": "timestamp[us]",
-      "ok": true
-    },
-    {
-      "file": "test.csv",
-      "column": "store_nbr",
-      "expected": "int32",
-      "actual": "int32",
-      "ok": true
-    },
-    {
-      "file": "test.csv",
-      "column": "item_nbr",
-      "expected": "int32",
-      "actual": "int32",
-      "ok": true
-    },
-    {
-      "file": "test.csv",
-      "column": "onpromotion",
-      "expected": "bool",
-      "actual": "bool",
-      "ok": true
-    },
-    {
-      "file": "oil.csv",
-      "column": "date",
-      "expected": "timestamp",
-      "actual": "timestamp[us]",
-      "ok": true
-    },
-    {
-      "file": "oil.csv",
-      "column": "dcoilwtico",
-      "expected": "double",
-      "actual": "double",
-      "ok": true
+      "status": "OK",
+      "missing_required_columns": [],
+      "extra_columns": [],
+      "actual_column_count": 5,
+      "expected_column_count": 5
     },
     {
       "file": "stores.csv",
-      "column": "store_nbr",
-      "expected": "int32",
-      "actual": "int32",
-      "ok": true
+      "status": "OK",
+      "missing_required_columns": [],
+      "extra_columns": [],
+      "actual_column_count": 5,
+      "expected_column_count": 5
     },
     {
       "file": "items.csv",
-      "column": "item_nbr",
-      "expected": "int32",
-      "actual": "int32",
-      "ok": true
+      "status": "OK",
+      "missing_required_columns": [],
+      "extra_columns": [],
+      "actual_column_count": 4,
+      "expected_column_count": 4
     },
     {
-      "file": "transactions.csv",
-      "column": "date",
-      "expected": "timestamp",
-      "actual": "timestamp[us]",
-      "ok": true
-    },
-    {
-      "file": "transactions.csv",
-      "column": "store_nbr",
-      "expected": "int32",
-      "actual": "int32",
-      "ok": true
+      "file": "oil.csv",
+      "status": "OK",
+      "missing_required_columns": [],
+      "extra_columns": [],
+      "actual_column_count": 2,
+      "expected_column_count": 2
     },
     {
       "file": "holidays_events.csv",
-      "column": "date",
-      "expected": "timestamp",
-      "actual": "timestamp[us]",
-      "ok": true
+      "status": "OK",
+      "missing_required_columns": [],
+      "extra_columns": [],
+      "actual_column_count": 6,
+      "expected_column_count": 6
+    },
+    {
+      "file": "transactions.csv",
+      "status": "OK",
+      "missing_required_columns": [],
+      "extra_columns": [],
+      "actual_column_count": 3,
+      "expected_column_count": 3
     }
   ],
   "raw_large_table_profiles": {
@@ -236,55 +163,55 @@
   "large_table_write_results": [
     {
       "input_file": "train.csv",
-      "output_file": "data/processed/train_cleaned.parquet",
+      "output_file": "data\\processed\\train_cleaned.parquet",
       "rows_written": 125497040,
       "missing_onpromotion_preserved": 21657651,
       "negative_unit_sales_preserved": 7795,
       "output_size_mb": 1102.275263786316,
-      "elapsed_minutes": 5.461463582515717
+      "elapsed_minutes": 2.9777781407038373
     },
     {
       "input_file": "test.csv",
-      "output_file": "data/processed/test_cleaned.parquet",
+      "output_file": "data\\processed\\test_cleaned.parquet",
       "rows_written": 3370464,
       "missing_onpromotion_preserved": 0,
       "negative_unit_sales_preserved": null,
       "output_size_mb": 25.034229278564453,
-      "elapsed_minutes": 0.13832417726516724
+      "elapsed_minutes": 0.08147559960683187
     }
   ],
   "small_table_write_results": [
     {
       "input_file": "stores.csv",
-      "output_file": "data/processed/stores_cleaned.parquet",
+      "output_file": "data\\processed\\stores_cleaned.parquet",
       "rows_input": 54,
       "rows_written": 54,
       "output_size_mb": 0.003916740417480469
     },
     {
       "input_file": "items.csv",
-      "output_file": "data/processed/items_cleaned.parquet",
+      "output_file": "data\\processed\\items_cleaned.parquet",
       "rows_input": 4100,
       "rows_written": 4100,
       "output_size_mb": 0.033336639404296875
     },
     {
       "input_file": "oil.csv",
-      "output_file": "data/processed/oil_cleaned.parquet",
+      "output_file": "data\\processed\\oil_cleaned.parquet",
       "rows_input": 1218,
       "rows_written": 1218,
       "output_size_mb": 0.01735210418701172
     },
     {
       "input_file": "holidays_events.csv",
-      "output_file": "data/processed/holidays_events_cleaned.parquet",
+      "output_file": "data\\processed\\holidays_events_cleaned.parquet",
       "rows_input": 350,
       "rows_written": 350,
       "output_size_mb": 0.008315086364746094
     },
     {
       "input_file": "transactions.csv",
-      "output_file": "data/processed/transactions_cleaned.parquet",
+      "output_file": "data\\processed\\transactions_cleaned.parquet",
       "rows_input": 83488,
       "rows_written": 83488,
       "output_size_mb": 0.1705160140991211
@@ -293,7 +220,7 @@
   "output_validation": [
     {
       "input_file": "train.csv",
-      "output_file": "data/processed/train_cleaned.parquet",
+      "output_file": "data\\processed\\train_cleaned.parquet",
       "input_rows": 125497040,
       "output_rows": 125497040,
       "row_count_match": true,
@@ -303,7 +230,7 @@
     },
     {
       "input_file": "test.csv",
-      "output_file": "data/processed/test_cleaned.parquet",
+      "output_file": "data\\processed\\test_cleaned.parquet",
       "input_rows": 3370464,
       "output_rows": 3370464,
       "row_count_match": true,
@@ -313,7 +240,7 @@
     },
     {
       "input_file": "stores.csv",
-      "output_file": "data/processed/stores_cleaned.parquet",
+      "output_file": "data\\processed\\stores_cleaned.parquet",
       "input_rows": 54,
       "output_rows": 54,
       "row_count_match": true,
@@ -323,7 +250,7 @@
     },
     {
       "input_file": "items.csv",
-      "output_file": "data/processed/items_cleaned.parquet",
+      "output_file": "data\\processed\\items_cleaned.parquet",
       "input_rows": 4100,
       "output_rows": 4100,
       "row_count_match": true,
@@ -333,7 +260,7 @@
     },
     {
       "input_file": "oil.csv",
-      "output_file": "data/processed/oil_cleaned.parquet",
+      "output_file": "data\\processed\\oil_cleaned.parquet",
       "input_rows": 1218,
       "output_rows": 1218,
       "row_count_match": true,
@@ -343,7 +270,7 @@
     },
     {
       "input_file": "holidays_events.csv",
-      "output_file": "data/processed/holidays_events_cleaned.parquet",
+      "output_file": "data\\processed\\holidays_events_cleaned.parquet",
       "input_rows": 350,
       "output_rows": 350,
       "row_count_match": true,
@@ -353,7 +280,7 @@
     },
     {
       "input_file": "transactions.csv",
-      "output_file": "data/processed/transactions_cleaned.parquet",
+      "output_file": "data\\processed\\transactions_cleaned.parquet",
       "input_rows": 83488,
       "output_rows": 83488,
       "row_count_match": true,
@@ -361,648 +288,5 @@
       "status": "OK",
       "output_size_mb": 0.1705160140991211
     }
-  ],
-  "extended_profile": {
-    "id_integrity": [
-      {
-        "rows": 125497040,
-        "id_min": 0,
-        "id_max": 125497039,
-        "id_span_equals_rows": true,
-        "non_increasing_steps": 0,
-        "gaps": 0
-      }
-    ],
-    "promo_structural_missing": true,
-    "promo_last_missing_date": "2014-03-31",
-    "promo_first_known_date": "2014-04-01",
-    "missing_calendar_days": [
-      "2013-12-25",
-      "2014-12-25",
-      "2015-12-25",
-      "2016-12-25"
-    ],
-    "unit_sales_outlier_profile": [
-      {
-        "metric": "unit_sales < 0 (returns)",
-        "rows": 7795,
-        "pct_of_rows": 0.006211301876123931
-      },
-      {
-        "metric": "unit_sales == 0",
-        "rows": 0,
-        "pct_of_rows": 0.0
-      },
-      {
-        "metric": "unit_sales > 100",
-        "rows": 626348,
-        "pct_of_rows": 0.49909384316952815
-      },
-      {
-        "metric": "unit_sales > 1,000",
-        "rows": 3204,
-        "pct_of_rows": 0.0025530482631303496
-      },
-      {
-        "metric": "unit_sales > 10,000",
-        "rows": 35,
-        "pct_of_rows": 2.788910399799071e-05
-      },
-      {
-        "metric": "unit_sales < -100",
-        "rows": 154,
-        "pct_of_rows": 0.00012271205759115914
-      },
-      {
-        "metric": "unit_sales < -1,000",
-        "rows": 20,
-        "pct_of_rows": 1.5936630855994693e-05
-      },
-      {
-        "metric": "unit_sales không nguyên",
-        "rows": 8191095,
-        "pct_of_rows": 6.526922866069191
-      }
-    ]
-  },
-  "reference_semantic_checks": [
-    {
-      "table": "stores",
-      "check": "mỗi city thuộc đúng một state",
-      "status": "PASS",
-      "detail": "city mâu thuẫn: []"
-    },
-    {
-      "table": "stores",
-      "check": "store_nbr liên tục từ 1",
-      "status": "PASS",
-      "detail": "min=1, max=54, n=54"
-    },
-    {
-      "table": "stores",
-      "check": "type thuộc A–E",
-      "status": "PASS",
-      "detail": "['A', 'B', 'C', 'D', 'E']"
-    },
-    {
-      "table": "items",
-      "check": "mỗi class thuộc đúng một family",
-      "status": "PASS",
-      "detail": "class thuộc nhiều family: []"
-    },
-    {
-      "table": "items",
-      "check": "perishable chỉ nhận 0/1",
-      "status": "PASS",
-      "detail": "[np.int64(0), np.int64(1)]"
-    },
-    {
-      "table": "items",
-      "check": "số family",
-      "status": "INFO",
-      "detail": "33"
-    },
-    {
-      "table": "oil",
-      "check": "giá dầu > 0",
-      "status": "PASS",
-      "detail": "số giá trị <= 0: 0"
-    },
-    {
-      "table": "oil",
-      "check": "biến động ngày > 15% (gắn cờ, không sửa)",
-      "status": "INFO",
-      "detail": "0 ngày"
-    },
-    {
-      "table": "oil",
-      "check": "ngày làm việc không có dòng nào",
-      "status": "INFO",
-      "detail": "0 ngày"
-    },
-    {
-      "table": "oil",
-      "check": "dòng ở cuối tuần",
-      "status": "INFO",
-      "detail": "0 dòng"
-    },
-    {
-      "table": "oil",
-      "check": "giá thiếu (NaN) trong file",
-      "status": "INFO",
-      "detail": "43 (3.53%)"
-    },
-    {
-      "table": "oil",
-      "check": "phủ đến hết ngày cuối của train",
-      "status": "PASS",
-      "detail": "oil max date = 2017-08-31, train max date = 2017-08-15"
-    },
-    {
-      "table": "holidays_events",
-      "check": "số dòng transferred=True bằng số dòng type=Transfer",
-      "status": "PASS",
-      "detail": "transferred=True: 12, type=Transfer: 12"
-    },
-    {
-      "table": "holidays_events",
-      "check": "locale thuộc National/Regional/Local",
-      "status": "PASS",
-      "detail": "['Local', 'National', 'Regional']"
-    },
-    {
-      "table": "holidays_events",
-      "check": "National chỉ gắn với Ecuador",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "table": "holidays_events",
-      "check": "Local khớp city của stores",
-      "status": "PASS",
-      "detail": "0 dòng Local không có cửa hàng trong city đó (vô hại khi join)"
-    },
-    {
-      "table": "holidays_events",
-      "check": "Regional khớp state của stores",
-      "status": "PASS",
-      "detail": "0 dòng Regional không có cửa hàng trong state đó"
-    },
-    {
-      "table": "holidays_events",
-      "check": "nhiều dòng cùng (date, locale, locale_name)",
-      "status": "WARN",
-      "detail": "14 dòng — join phải tổng hợp trước để không nhân dòng train/test"
-    },
-    {
-      "table": "transactions",
-      "check": "transactions >= 0",
-      "status": "PASS",
-      "detail": "min=5, max=8359"
-    },
-    {
-      "table": "transactions",
-      "check": "transactions == 0",
-      "status": "INFO",
-      "detail": "0 dòng"
-    },
-    {
-      "table": "transactions",
-      "check": "store-day có bán hàng nhưng thiếu trong transactions",
-      "status": "WARN",
-      "detail": "118 store-day"
-    },
-    {
-      "table": "transactions",
-      "check": "store-day có transactions nhưng không có trong train",
-      "status": "PASS",
-      "detail": "0 store-day"
-    },
-    {
-      "table": "transactions",
-      "check": "độ phủ so với store-day của train",
-      "status": "INFO",
-      "detail": "99.86%"
-    }
-  ],
-  "supplementary_gate": [
-    {
-      "check": "sample_submission có đúng cột [id, unit_sales]",
-      "status": "PASS",
-      "detail": "['id', 'unit_sales']"
-    },
-    {
-      "check": "sample_submission: id duy nhất",
-      "status": "PASS",
-      "detail": "duplicates=0"
-    },
-    {
-      "check": "sample_submission.id trùng tập id của test",
-      "status": "PASS",
-      "detail": "submission=3,370,464, test=3,370,464"
-    },
-    {
-      "check": "sample_submission.id cùng thứ tự với test",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "check": "test: id duy nhất",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "check": "test: id liên tục",
-      "status": "PASS",
-      "detail": "min=125497040, max=128867503"
-    },
-    {
-      "check": "test.id bắt đầu ngay sau train.id",
-      "status": "PASS",
-      "detail": "train max id=125497039, test min id=125497040"
-    },
-    {
-      "check": "test: các ngày liên tiếp",
-      "status": "PASS",
-      "detail": "16 ngày: 2017-08-16 → 2017-08-31"
-    },
-    {
-      "check": "test bắt đầu sau ngày cuối của train (không chồng lấn)",
-      "status": "PASS",
-      "detail": "train max=2017-08-15"
-    },
-    {
-      "check": "test là lưới đầy đủ cặp × ngày",
-      "status": "PASS",
-      "detail": "cặp=210,654, ngày=16, dòng/cặp: [16]"
-    },
-    {
-      "check": "test: store_nbr ⊆ stores.csv",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "check": "test: item_nbr ⊆ items.csv",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "check": "train: id tăng nghiêm ngặt (duy nhất)",
-      "status": "PASS",
-      "detail": "bước không tăng=0"
-    },
-    {
-      "check": "train: id liên tục",
-      "status": "PASS",
-      "detail": "số khoảng trống=0"
-    },
-    {
-      "check": "train: onpromotion thiếu có cấu trúc theo thời gian",
-      "status": "INFO",
-      "detail": "last_missing=2014-03-31, first_known=2014-04-01"
-    },
-    {
-      "check": "test: onpromotion không thiếu",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "check": "bảng tham chiếu: không có kiểm tra ngữ nghĩa FAIL",
-      "status": "PASS",
-      "detail": "0 FAIL"
-    }
-  ],
-  "reconciliation": [
-    {
-      "file": "train.csv",
-      "metric": "rows",
-      "raw": 125497040,
-      "processed": 125497040,
-      "match": true
-    },
-    {
-      "file": "train.csv",
-      "metric": "sum_unit_sales",
-      "raw": 1073610268.7877996,
-      "processed": 1073610268.7877996,
-      "match": true
-    },
-    {
-      "file": "train.csv",
-      "metric": "negative_rows",
-      "raw": 7795,
-      "processed": 7795,
-      "match": true
-    },
-    {
-      "file": "train.csv",
-      "metric": "sum_id",
-      "raw": 7874753461632280,
-      "processed": 7874753461632280,
-      "match": true
-    },
-    {
-      "file": "train.csv",
-      "metric": "sum_store",
-      "raw": 3446723247,
-      "processed": 3446723247,
-      "match": true
-    },
-    {
-      "file": "train.csv",
-      "metric": "sum_item",
-      "raw": 122079649269994,
-      "processed": 122079649269994,
-      "match": true
-    },
-    {
-      "file": "train.csv",
-      "metric": "min_date",
-      "raw": "2013-01-01 00:00:00",
-      "processed": "2013-01-01 00:00:00",
-      "match": true
-    },
-    {
-      "file": "train.csv",
-      "metric": "max_date",
-      "raw": "2017-08-15 00:00:00",
-      "processed": "2017-08-15 00:00:00",
-      "match": true
-    },
-    {
-      "file": "train.csv",
-      "metric": "promo_true",
-      "raw": 7810622,
-      "processed": 7810622,
-      "match": true
-    },
-    {
-      "file": "train.csv",
-      "metric": "promo_false",
-      "raw": 96028767,
-      "processed": 96028767,
-      "match": true
-    },
-    {
-      "file": "train.csv",
-      "metric": "promo_missing",
-      "raw": 21657651,
-      "processed": 21657651,
-      "match": true
-    },
-    {
-      "file": "test.csv",
-      "metric": "rows",
-      "raw": 3370464,
-      "processed": 3370464,
-      "match": true
-    },
-    {
-      "file": "test.csv",
-      "metric": "sum_unit_sales",
-      "raw": 0.0,
-      "processed": 0.0,
-      "match": true
-    },
-    {
-      "file": "test.csv",
-      "metric": "negative_rows",
-      "raw": 0,
-      "processed": 0,
-      "match": true
-    },
-    {
-      "file": "test.csv",
-      "metric": "sum_id",
-      "raw": 428663267528976,
-      "processed": 428663267528976,
-      "match": true
-    },
-    {
-      "file": "test.csv",
-      "metric": "sum_store",
-      "raw": 92687760,
-      "processed": 92687760,
-      "match": true
-    },
-    {
-      "file": "test.csv",
-      "metric": "sum_item",
-      "raw": 4195547680896,
-      "processed": 4195547680896,
-      "match": true
-    },
-    {
-      "file": "test.csv",
-      "metric": "min_date",
-      "raw": "2017-08-16 00:00:00",
-      "processed": "2017-08-16 00:00:00",
-      "match": true
-    },
-    {
-      "file": "test.csv",
-      "metric": "max_date",
-      "raw": "2017-08-31 00:00:00",
-      "processed": "2017-08-31 00:00:00",
-      "match": true
-    },
-    {
-      "file": "test.csv",
-      "metric": "promo_true",
-      "raw": 198597,
-      "processed": 198597,
-      "match": true
-    },
-    {
-      "file": "test.csv",
-      "metric": "promo_false",
-      "raw": 3171867,
-      "processed": 3171867,
-      "match": true
-    },
-    {
-      "file": "test.csv",
-      "metric": "promo_missing",
-      "raw": 0,
-      "processed": 0,
-      "match": true
-    }
-  ],
-  "runtime_checklist": [
-    {
-      "item": "Schema bắt buộc có đủ",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "item": "Ngày/khóa/kiểu dữ liệu hợp lệ",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "item": "Duplicate business key: có kết luận rõ ràng",
-      "status": "PASS",
-      "detail": "dữ liệu có thứ tự đơn điệu và không có khóa trùng"
-    },
-    {
-      "item": "Số dòng raw = processed ở mọi file",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "item": "Checksum raw = processed (reconciliation)",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "item": "Raw files không thay đổi",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "item": "onpromotion thiếu được giữ nguyên",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "item": "unit_sales âm được giữ nguyên",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "item": "Oil thiếu được giữ nguyên",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "item": "Supplementary gate không có BLOCK",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "item": "Báo cáo bảng đã lưu",
-      "status": "PASS",
-      "detail": ""
-    }
-  ],
-  "cleaning_decision_log": [
-    {
-      "id": "DL01",
-      "issue": "unit_sales < 0 (trả hàng)",
-      "evidence": "7,795 dòng (0.0062%)",
-      "decision": "Giữ nguyên; clip về 0 khi tính metric/huấn luyện",
-      "handled_in": "03 / modeling",
-      "status": "Decided"
-    },
-    {
-      "id": "DL02",
-      "issue": "Không có dòng unit_sales = 0 (dòng ngầm bằng 0)",
-      "evidence": "zero rows = 0; median 73,379 dòng/ngày",
-      "decision": "Không thêm dòng ở cleaning; dựng panel đầy đủ ở 03 nếu mô hình cần",
-      "handled_in": "03",
-      "status": "Open"
-    },
-    {
-      "id": "DL03",
-      "issue": "onpromotion thiếu trong train",
-      "evidence": "21,657,651 dòng; last_missing=2014-03-31, first_known=2014-04-01",
-      "decision": "Giữ NaN (nullable boolean); thêm cờ promo_known và cân nhắc cửa sổ huấn luyện ở 03",
-      "handled_in": "03",
-      "status": "Decided"
-    },
-    {
-      "id": "DL04",
-      "issue": "Ngày lịch vắng trong train",
-      "evidence": "4 ngày: ['2013-12-25', '2014-12-25', '2015-12-25', '2016-12-25']",
-      "decision": "Không thêm dòng; tạo cờ ngày đóng cửa nếu dự báo cần",
-      "handled_in": "03",
-      "status": "Decided"
-    },
-    {
-      "id": "DL05",
-      "issue": "Duplicate theo khóa (date, store_nbr, item_nbr)",
-      "evidence": "0 dòng trùng; thứ tự đơn điệu = True",
-      "decision": "Không có hành động",
-      "handled_in": "—",
-      "status": "Closed"
-    },
-    {
-      "id": "DL06",
-      "issue": "Tham chiếu store/item",
-      "evidence": "mismatch store=0, item=0",
-      "decision": "Không có hành động",
-      "handled_in": "—",
-      "status": "Closed"
-    },
-    {
-      "id": "DL07",
-      "issue": "Giá dầu thiếu",
-      "evidence": "43 giá trị; ngày làm việc không có dòng: 0",
-      "decision": "Giữ nguyên ở 02; điền bằng giá trị trước đó (không nhìn tương lai) ở 03",
-      "handled_in": "03",
-      "status": "Open"
-    },
-    {
-      "id": "DL08",
-      "issue": "Outlier unit_sales",
-      "evidence": "> 1,000: 3,204 dòng; > 10,000: 35 dòng; < -100: 154 dòng",
-      "decision": "Giữ nguyên; cân nhắc winsorize/log1p ở modeling theo family",
-      "handled_in": "03 / modeling",
-      "status": "Open"
-    },
-    {
-      "id": "DL09",
-      "issue": "Giá trị không nguyên (hàng bán theo khối lượng)",
-      "evidence": "8,191,095 dòng (6.53%)",
-      "decision": "Giữ nguyên float64; không làm tròn",
-      "handled_in": "—",
-      "status": "Decided"
-    },
-    {
-      "id": "DL10",
-      "issue": "Holidays: nhiều dòng cùng (date, locale, locale_name) và transferred",
-      "evidence": "xem 02_reference_semantic_checks.csv",
-      "decision": "Gom trước khi merge; dùng dòng type=Transfer cho ngày nghỉ thực",
-      "handled_in": "03",
-      "status": "Open"
-    },
-    {
-      "id": "DL11",
-      "issue": "transactions thiếu store-day",
-      "evidence": "xem 02_reference_semantic_checks.csv",
-      "decision": "Không điền 0; dùng cờ riêng; chỉ dùng dạng lag",
-      "handled_in": "03",
-      "status": "Open"
-    },
-    {
-      "id": "DL12",
-      "issue": "Căn chỉnh test ↔ sample_submission",
-      "evidence": "xem 02_supplementary_gate.csv",
-      "decision": "Đã kiểm tra; không ghi lại file",
-      "handled_in": "—",
-      "status": "Closed"
-    }
-  ],
-  "raw_manifest": {
-    "holidays_events.csv": {
-      "size_bytes": 22309,
-      "hash_mode": "full",
-      "sha256": "81a183d6c4d691b57f84a0fde6bbf734a5b3c36a74b97378bf33a592648e2999"
-    },
-    "items.csv": {
-      "size_bytes": 101841,
-      "hash_mode": "full",
-      "sha256": "1efd8295f52c8531ec5bf6c3de37228a56bad2f2c653e79c4869baaf637edcc6"
-    },
-    "oil.csv": {
-      "size_bytes": 20580,
-      "hash_mode": "full",
-      "sha256": "944b23b857580f9d804399346fd3ed69bffcb7facfd98c55fdb408b8d057cca7"
-    },
-    "sample_submission.csv": {
-      "size_bytes": 40445582,
-      "hash_mode": "full",
-      "sha256": "50b93078008e68bdd0818b18ca2493c23e7ad7e2c506b2b263c3347dad1d77db"
-    },
-    "stores.csv": {
-      "size_bytes": 1387,
-      "hash_mode": "full",
-      "sha256": "af503b2bce11d7906d249f81cc0598f10e2addcc9f6c59aa2d95c9f2652c296b"
-    },
-    "test.csv": {
-      "size_bytes": 126163026,
-      "hash_mode": "head+tail",
-      "sha256": "f13e3e699174cc72f818af9f5d727a3858b904e4a19fd49e37eff7cc3497985c"
-    },
-    "train.csv": {
-      "size_bytes": 4997452288,
-      "hash_mode": "head+tail",
-      "sha256": "3f707c9331687640b8384a314e0c0b5d7b27d57b7091ec97ac20609f22a85104"
-    },
-    "transactions.csv": {
-      "size_bytes": 1552637,
-      "hash_mode": "full",
-      "sha256": "e116384a6981af74932832436aa2f6a43121f77ca81accc44e3a5160158ca03c"
-    }
-  }
+  ]
 }

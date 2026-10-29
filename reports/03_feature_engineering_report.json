@@ -1,633 +1,633 @@
 {
-  "created_at": "2026-10-26T17:18:57",
+  "created_at": "2026-10-29T22:11:13",
   "n_features": 75,
   "manifest": [
     {
       "role": "test",
       "origin": "2017-08-15T00:00:00",
       "file": "test_20170815.parquet",
-      "universe_pairs": 210654,
-      "sampled_pairs": 210654,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 3370464,
       "size_mb": 196.0909538269043,
-      "seconds": 56.815083742141724,
-      "status": "đã dựng"
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2015-06-11T00:00:00",
       "file": "train_20150611.parquet",
-      "universe_pairs": 115363,
-      "sampled_pairs": 2782,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 44512,
-      "size_mb": 4.24138069152832,
-      "seconds": 6.971834182739258,
-      "status": "đã dựng"
+      "size_mb": 4.241359710693359,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2015-06-24T00:00:00",
       "file": "train_20150624.parquet",
-      "universe_pairs": 116393,
-      "sampled_pairs": 2688,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 42947,
-      "size_mb": 4.108207702636719,
-      "seconds": 6.657949447631836,
-      "status": "đã dựng"
+      "size_mb": 4.108210563659668,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2015-07-07T00:00:00",
       "file": "train_20150707.parquet",
-      "universe_pairs": 118073,
-      "sampled_pairs": 2772,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 44352,
-      "size_mb": 4.2899322509765625,
-      "seconds": 6.698406219482422,
-      "status": "đã dựng"
+      "size_mb": 4.289933204650879,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2015-07-20T00:00:00",
       "file": "train_20150720.parquet",
-      "universe_pairs": 118696,
-      "sampled_pairs": 2778,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 44448,
-      "size_mb": 4.299309730529785,
-      "seconds": 6.730290412902832,
-      "status": "đã dựng"
+      "size_mb": 4.2993059158325195,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2015-08-02T00:00:00",
       "file": "train_20150802.parquet",
-      "universe_pairs": 121446,
-      "sampled_pairs": 2844,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 45504,
-      "size_mb": 4.351654052734375,
-      "seconds": 6.817825794219971,
-      "status": "đã dựng"
+      "size_mb": 4.351665496826172,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2015-08-15T00:00:00",
       "file": "train_20150815.parquet",
-      "universe_pairs": 121904,
-      "sampled_pairs": 2796,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 44736,
-      "size_mb": 4.299595832824707,
-      "seconds": 6.9744017124176025,
-      "status": "đã dựng"
+      "size_mb": 4.299593925476074,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2015-08-28T00:00:00",
       "file": "train_20150828.parquet",
-      "universe_pairs": 125241,
-      "sampled_pairs": 2786,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 44576,
       "size_mb": 4.257096290588379,
-      "seconds": 7.137279987335205,
-      "status": "đã dựng"
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2015-09-10T00:00:00",
       "file": "train_20150910.parquet",
-      "universe_pairs": 127392,
-      "sampled_pairs": 2985,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 47760,
-      "size_mb": 4.611697196960449,
-      "seconds": 7.277221918106079,
-      "status": "đã dựng"
+      "size_mb": 4.611706733703613,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2015-09-23T00:00:00",
       "file": "train_20150923.parquet",
-      "universe_pairs": 127953,
-      "sampled_pairs": 2996,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 47936,
-      "size_mb": 4.580935478210449,
-      "seconds": 7.46929669380188,
-      "status": "đã dựng"
+      "size_mb": 4.580890655517578,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2015-10-06T00:00:00",
       "file": "train_20151006.parquet",
-      "universe_pairs": 134513,
-      "sampled_pairs": 3154,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 50464,
-      "size_mb": 4.805098533630371,
-      "seconds": 7.871527910232544,
-      "status": "đã dựng"
+      "size_mb": 4.805111885070801,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2015-10-19T00:00:00",
       "file": "train_20151019.parquet",
-      "universe_pairs": 137225,
-      "sampled_pairs": 3146,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 50336,
-      "size_mb": 4.839756965637207,
-      "seconds": 8.161212682723999,
-      "status": "đã dựng"
+      "size_mb": 4.83976936340332,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2015-11-01T00:00:00",
       "file": "train_20151101.parquet",
-      "universe_pairs": 138223,
-      "sampled_pairs": 3268,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 52288,
-      "size_mb": 4.925040245056152,
-      "seconds": 8.00476622581482,
-      "status": "đã dựng"
+      "size_mb": 4.925053596496582,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2015-11-14T00:00:00",
       "file": "train_20151114.parquet",
-      "universe_pairs": 139187,
-      "sampled_pairs": 3392,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 54272,
-      "size_mb": 5.141298294067383,
-      "seconds": 8.228904485702515,
-      "status": "đã dựng"
+      "size_mb": 5.141279220581055,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2015-11-27T00:00:00",
       "file": "train_20151127.parquet",
-      "universe_pairs": 139914,
-      "sampled_pairs": 3397,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 54352,
-      "size_mb": 5.0944061279296875,
-      "seconds": 8.387840747833252,
-      "status": "đã dựng"
+      "size_mb": 5.094408988952637,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2015-12-10T00:00:00",
       "file": "train_20151210.parquet",
-      "universe_pairs": 140643,
-      "sampled_pairs": 3233,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 48495,
-      "size_mb": 4.60801887512207,
-      "seconds": 8.321319341659546,
-      "status": "đã dựng"
+      "size_mb": 4.608019828796387,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2015-12-23T00:00:00",
       "file": "train_20151223.parquet",
-      "universe_pairs": 141253,
-      "sampled_pairs": 3253,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 45599,
-      "size_mb": 4.377582550048828,
-      "seconds": 8.398294925689697,
-      "status": "đã dựng"
+      "size_mb": 4.3776044845581055,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-01-05T00:00:00",
       "file": "train_20160105.parquet",
-      "universe_pairs": 141539,
-      "sampled_pairs": 3272,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 52352,
-      "size_mb": 4.991715431213379,
-      "seconds": 8.752454042434692,
-      "status": "đã dựng"
+      "size_mb": 4.991725921630859,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-01-18T00:00:00",
       "file": "train_20160118.parquet",
-      "universe_pairs": 142025,
-      "sampled_pairs": 3285,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 52560,
-      "size_mb": 4.967720985412598,
-      "seconds": 8.96155071258545,
-      "status": "đã dựng"
+      "size_mb": 4.967714309692383,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-01-31T00:00:00",
       "file": "train_20160131.parquet",
-      "universe_pairs": 142426,
-      "sampled_pairs": 3340,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 53440,
-      "size_mb": 5.009895324707031,
-      "seconds": 9.587115287780762,
-      "status": "đã dựng"
+      "size_mb": 5.009890556335449,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-02-13T00:00:00",
       "file": "train_20160213.parquet",
-      "universe_pairs": 142817,
-      "sampled_pairs": 3299,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 52784,
-      "size_mb": 4.977807998657227,
-      "seconds": 8.844779968261719,
-      "status": "đã dựng"
+      "size_mb": 4.977818489074707,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-02-26T00:00:00",
       "file": "train_20160226.parquet",
-      "universe_pairs": 143230,
-      "sampled_pairs": 3308,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 52928,
-      "size_mb": 4.960210800170898,
-      "seconds": 8.837043523788452,
-      "status": "đã dựng"
+      "size_mb": 4.960219383239746,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-03-10T00:00:00",
       "file": "train_20160310.parquet",
-      "universe_pairs": 144040,
-      "sampled_pairs": 3320,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 53024,
-      "size_mb": 5.02835750579834,
-      "seconds": 9.079712867736816,
-      "status": "đã dựng"
+      "size_mb": 5.028365135192871,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-03-23T00:00:00",
       "file": "train_20160323.parquet",
-      "universe_pairs": 144799,
-      "sampled_pairs": 3371,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 53936,
       "size_mb": 5.046747207641602,
-      "seconds": 9.720272302627563,
-      "status": "đã dựng"
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-06-22T00:00:00",
       "file": "train_20160622.parquet",
-      "universe_pairs": 149364,
-      "sampled_pairs": 3533,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 56528,
-      "size_mb": 5.202651023864746,
-      "seconds": 10.22651720046997,
-      "status": "đã dựng"
+      "size_mb": 5.2026519775390625,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-07-05T00:00:00",
       "file": "train_20160705.parquet",
-      "universe_pairs": 149969,
-      "sampled_pairs": 3493,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 55888,
-      "size_mb": 5.194705963134766,
-      "seconds": 10.023041248321533,
-      "status": "đã dựng"
+      "size_mb": 5.194693565368652,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-07-18T00:00:00",
       "file": "train_20160718.parquet",
-      "universe_pairs": 150499,
-      "sampled_pairs": 3477,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 55632,
-      "size_mb": 5.169025421142578,
-      "seconds": 9.55519986152649,
-      "status": "đã dựng"
+      "size_mb": 5.169028282165527,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-07-31T00:00:00",
       "file": "train_20160731.parquet",
-      "universe_pairs": 151169,
-      "sampled_pairs": 3551,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 56684,
-      "size_mb": 5.212292671203613,
-      "seconds": 10.148715734481812,
-      "status": "đã dựng"
+      "size_mb": 5.212298393249512,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-08-13T00:00:00",
       "file": "train_20160813.parquet",
-      "universe_pairs": 151818,
-      "sampled_pairs": 3576,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 55519,
-      "size_mb": 5.174150466918945,
-      "seconds": 9.968985080718994,
-      "status": "đã dựng"
+      "size_mb": 5.174160003662109,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-08-26T00:00:00",
       "file": "train_20160826.parquet",
-      "universe_pairs": 152358,
-      "sampled_pairs": 3549,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 54576,
-      "size_mb": 5.058277130126953,
-      "seconds": 9.632681131362915,
-      "status": "đã dựng"
+      "size_mb": 5.0582780838012695,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-09-08T00:00:00",
       "file": "train_20160908.parquet",
-      "universe_pairs": 153089,
-      "sampled_pairs": 3604,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 55200,
-      "size_mb": 5.114292144775391,
-      "seconds": 9.578598022460938,
-      "status": "đã dựng"
+      "size_mb": 5.114287376403809,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-09-21T00:00:00",
       "file": "train_20160921.parquet",
-      "universe_pairs": 153766,
-      "sampled_pairs": 3549,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 54704,
-      "size_mb": 5.074640274047852,
-      "seconds": 9.759591102600098,
-      "status": "đã dựng"
+      "size_mb": 5.074642181396484,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-10-04T00:00:00",
       "file": "train_20161004.parquet",
-      "universe_pairs": 154438,
-      "sampled_pairs": 3571,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 55056,
-      "size_mb": 5.122906684875488,
-      "seconds": 9.912994146347046,
-      "status": "đã dựng"
+      "size_mb": 5.122893333435059,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-10-17T00:00:00",
       "file": "train_20161017.parquet",
-      "universe_pairs": 155373,
-      "sampled_pairs": 3612,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 56049,
-      "size_mb": 5.206958770751953,
-      "seconds": 9.607192754745483,
-      "status": "đã dựng"
+      "size_mb": 5.20695686340332,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-10-30T00:00:00",
       "file": "train_20161030.parquet",
-      "universe_pairs": 156338,
-      "sampled_pairs": 3603,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 56468,
-      "size_mb": 5.1870012283325195,
-      "seconds": 9.88402009010315,
-      "status": "đã dựng"
+      "size_mb": 5.187000274658203,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-11-12T00:00:00",
       "file": "train_20161112.parquet",
-      "universe_pairs": 157163,
-      "sampled_pairs": 3780,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 59028,
       "size_mb": 5.397192001342773,
-      "seconds": 9.694552183151245,
-      "status": "đã dựng"
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-11-25T00:00:00",
       "file": "train_20161125.parquet",
-      "universe_pairs": 158081,
-      "sampled_pairs": 3699,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 58764,
-      "size_mb": 5.412736892700195,
-      "seconds": 9.686267852783203,
-      "status": "đã dựng"
+      "size_mb": 5.4127197265625,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-12-08T00:00:00",
       "file": "train_20161208.parquet",
-      "universe_pairs": 161345,
-      "sampled_pairs": 3836,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 61376,
-      "size_mb": 5.745892524719238,
-      "seconds": 9.87899899482727,
-      "status": "đã dựng"
+      "size_mb": 5.745898246765137,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2016-12-21T00:00:00",
       "file": "train_20161221.parquet",
-      "universe_pairs": 162045,
-      "sampled_pairs": 3844,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 53901,
-      "size_mb": 5.096372604370117,
-      "seconds": 10.29676604270935,
-      "status": "đã dựng"
+      "size_mb": 5.096386909484863,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2017-01-03T00:00:00",
       "file": "train_20170103.parquet",
-      "universe_pairs": 162629,
-      "sampled_pairs": 3671,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 58736,
       "size_mb": 5.469204902648926,
-      "seconds": 10.859467267990112,
-      "status": "đã dựng"
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2017-01-16T00:00:00",
       "file": "train_20170116.parquet",
-      "universe_pairs": 163119,
-      "sampled_pairs": 3707,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 59312,
-      "size_mb": 5.549267768859863,
-      "seconds": 10.074098348617554,
-      "status": "đã dựng"
+      "size_mb": 5.549258232116699,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2017-01-29T00:00:00",
       "file": "train_20170129.parquet",
-      "universe_pairs": 163595,
-      "sampled_pairs": 3700,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 59200,
-      "size_mb": 5.484457015991211,
-      "seconds": 10.213340520858765,
-      "status": "đã dựng"
+      "size_mb": 5.484452247619629,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2017-02-11T00:00:00",
       "file": "train_20170211.parquet",
-      "universe_pairs": 164153,
-      "sampled_pairs": 3805,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 60880,
-      "size_mb": 5.650084495544434,
-      "seconds": 10.353591918945312,
-      "status": "đã dựng"
+      "size_mb": 5.650099754333496,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2017-02-24T00:00:00",
       "file": "train_20170224.parquet",
-      "universe_pairs": 164733,
-      "sampled_pairs": 3801,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 60816,
-      "size_mb": 5.625485420227051,
-      "seconds": 10.694496154785156,
-      "status": "đã dựng"
+      "size_mb": 5.62546443939209,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2017-03-09T00:00:00",
       "file": "train_20170309.parquet",
-      "universe_pairs": 165183,
-      "sampled_pairs": 3840,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 61440,
-      "size_mb": 5.687723159790039,
-      "seconds": 10.412107229232788,
-      "status": "đã dựng"
+      "size_mb": 5.687734603881836,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2017-03-22T00:00:00",
       "file": "train_20170322.parquet",
-      "universe_pairs": 165759,
-      "sampled_pairs": 3802,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 60832,
-      "size_mb": 5.589526176452637,
-      "seconds": 10.203499555587769,
-      "status": "đã dựng"
+      "size_mb": 5.589521408081055,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2017-04-04T00:00:00",
       "file": "train_20170404.parquet",
-      "universe_pairs": 166799,
-      "sampled_pairs": 3697,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 59152,
-      "size_mb": 5.479903221130371,
-      "seconds": 10.246670246124268,
-      "status": "đã dựng"
+      "size_mb": 5.479911804199219,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2017-04-17T00:00:00",
       "file": "train_20170417.parquet",
-      "universe_pairs": 167279,
-      "sampled_pairs": 3838,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 61408,
-      "size_mb": 5.639518737792969,
-      "seconds": 10.259177207946777,
-      "status": "đã dựng"
+      "size_mb": 5.639529228210449,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2017-04-30T00:00:00",
       "file": "train_20170430.parquet",
-      "universe_pairs": 170935,
-      "sampled_pairs": 3949,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 63184,
-      "size_mb": 5.768364906311035,
-      "seconds": 10.484514474868774,
-      "status": "đã dựng"
+      "size_mb": 5.7683610916137695,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2017-05-13T00:00:00",
       "file": "train_20170513.parquet",
-      "universe_pairs": 171582,
-      "sampled_pairs": 3953,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 63248,
-      "size_mb": 5.822941780090332,
-      "seconds": 10.310710906982422,
-      "status": "đã dựng"
+      "size_mb": 5.822945594787598,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2017-05-26T00:00:00",
       "file": "train_20170526.parquet",
-      "universe_pairs": 172293,
-      "sampled_pairs": 4043,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 64688,
-      "size_mb": 5.940911293029785,
-      "seconds": 10.86559247970581,
-      "status": "đã dựng"
+      "size_mb": 5.940912246704102,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2017-06-08T00:00:00",
       "file": "train_20170608.parquet",
-      "universe_pairs": 172639,
-      "sampled_pairs": 4056,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 64896,
-      "size_mb": 5.886748313903809,
-      "seconds": 10.913124084472656,
-      "status": "đã dựng"
+      "size_mb": 5.886735916137695,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2017-06-21T00:00:00",
       "file": "train_20170621.parquet",
-      "universe_pairs": 173019,
-      "sampled_pairs": 4017,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 64272,
-      "size_mb": 5.827078819274902,
-      "seconds": 11.349703788757324,
-      "status": "đã dựng"
+      "size_mb": 5.827086448669434,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2017-07-04T00:00:00",
       "file": "train_20170704.parquet",
-      "universe_pairs": 173395,
-      "sampled_pairs": 4039,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 64624,
-      "size_mb": 5.81136417388916,
-      "seconds": 10.439567565917969,
-      "status": "đã dựng"
+      "size_mb": 5.811387062072754,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "train",
       "origin": "2017-07-17T00:00:00",
       "file": "train_20170717.parquet",
-      "universe_pairs": 173842,
-      "sampled_pairs": 4058,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 64928,
-      "size_mb": 5.8521318435668945,
-      "seconds": 10.57081389427185,
-      "status": "đã dựng"
+      "size_mb": 5.852134704589844,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "valid_last16",
       "origin": "2017-07-30T00:00:00",
       "file": "valid_last16_20170730.parquet",
-      "universe_pairs": 174140,
-      "sampled_pairs": 174140,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 2786240,
-      "size_mb": 193.00734615325928,
-      "seconds": 33.368253231048584,
-      "status": "đã dựng"
+      "size_mb": 193.00740814208984,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     },
     {
       "role": "valid_seasonal",
       "origin": "2016-08-15T00:00:00",
       "file": "valid_seasonal_20160815.parquet",
-      "universe_pairs": 151876,
-      "sampled_pairs": 75662,
+      "universe_pairs": NaN,
+      "sampled_pairs": NaN,
       "rows": 1172130,
-      "size_mb": 87.9315824508667,
-      "seconds": 18.19299602508545,
-      "status": "đã dựng"
+      "size_mb": 87.93160343170166,
+      "seconds": 0.0,
+      "status": "đã có (bỏ qua)"
     }
   ],
   "structure_checks": [
@@ -990,31 +990,31 @@
   "baselines": [
     {
       "baseline": "B2c mean_28",
-      "NWRMSLE": 0.6385877968946477
+      "NWRMSLE": 0.6385877968751591
     },
     {
       "baseline": "B2b mean_14",
-      "NWRMSLE": 0.6462277175717772
+      "NWRMSLE": 0.646227717583006
     },
     {
       "baseline": "B2a mean_7",
-      "NWRMSLE": 0.6554802906110464
+      "NWRMSLE": 0.6554802907209859
     },
     {
       "baseline": "B4 dow_mean_8 + item_mean_28",
-      "NWRMSLE": 0.6605799137436202
+      "NWRMSLE": 0.6605799136741212
     },
     {
       "baseline": "B3b dow_mean_8",
-      "NWRMSLE": 0.6609469144575072
+      "NWRMSLE": 0.6609469143901804
     },
     {
       "baseline": "B3a dow_mean_4",
-      "NWRMSLE": 0.6757441120887401
+      "NWRMSLE": 0.6757441120047606
     },
     {
       "baseline": "B1 dow_last",
-      "NWRMSLE": 0.8174903459937864
+      "NWRMSLE": 0.8174903459857915
     },
     {
       "baseline": "B0 (hằng số)",

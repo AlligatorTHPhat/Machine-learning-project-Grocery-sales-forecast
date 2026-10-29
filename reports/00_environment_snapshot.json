@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-10-25T16:37:36",
+  "created_at": "2026-10-29T18:54:53",
   "project_name": "Machine Learning Final Project",
   "task_type": "Time Series Forecasting",
   "target": "unit_sales",
@@ -23,17 +23,17 @@
     "status": "provisional - cần đối chiếu đề bài"
   },
   "environment": {
-    "python": "3.11.16",
-    "cpu_cores": 8,
-    "ram_total_gb": 7.500282287597656,
-    "ram_available_gb": 1.8995208740234375,
-    "disk_free_gb": 98.48952102661133,
+    "python": "3.11.9",
+    "cpu_cores": 12,
+    "ram_total_gb": 15.692092895507812,
+    "ram_available_gb": 1.9140129089355469,
+    "disk_free_gb": 29.801288604736328,
     "num_raw_csv": 8
   },
   "library_versions": {
-    "pandas": "3.0.5",
+    "pandas": "3.1.0",
     "numpy": "2.4.6",
-    "pyarrow": "25.0.1",
+    "pyarrow": "26.0.0",
     "matplotlib": "3.11.2",
     "scipy": "1.17.1",
     "scikit-learn": "1.9.1",
@@ -42,7 +42,7 @@
     "xgboost": "3.2.0",
     "catboost": null,
     "polars": null,
-    "duckdb": null,
+    "duckdb": "2.0.0",
     "psutil": "7.2.2"
   },
   "seed": 42,
@@ -59,48 +59,48 @@
     "train_optimized_gb": 2.688199207186699
   },
   "chunk": {
-    "recommended_chunk_size": 250000,
+    "recommended_chunk_size": 100000,
     "benchmark_rows": 4000000,
     "benchmark": [
       {
         "chunk_size": 50000,
         "rows_read": 4000000,
-        "seconds": 4.1,
-        "rows_per_second": 976463.7214925346,
-        "peak_rss_increase_mb": 2.3,
-        "est_full_train_pass_minutes": 2.142032814220968
+        "seconds": 1.17,
+        "rows_per_second": 3422785.2590449243,
+        "peak_rss_increase_mb": 4.4,
+        "est_full_train_pass_minutes": 0.6110863449017445
       },
       {
         "chunk_size": 100000,
         "rows_read": 4000000,
-        "seconds": 4.13,
-        "rows_per_second": 968491.0663695408,
-        "peak_rss_increase_mb": 1.9,
-        "est_full_train_pass_minutes": 2.1596661094396183
+        "seconds": 0.75,
+        "rows_per_second": 5316730.2479565,
+        "peak_rss_increase_mb": 7.9,
+        "est_full_train_pass_minutes": 0.3934029442507925
       },
       {
         "chunk_size": 250000,
         "rows_read": 4000000,
-        "seconds": 4.03,
-        "rows_per_second": 992714.113988586,
-        "peak_rss_increase_mb": 27.3,
-        "est_full_train_pass_minutes": 2.1069684654018954
+        "seconds": 1.18,
+        "rows_per_second": 3379654.3119474533,
+        "peak_rss_increase_mb": 14.8,
+        "est_full_train_pass_minutes": 0.6188849924500366
       },
       {
         "chunk_size": 500000,
         "rows_read": 4000000,
-        "seconds": 4.59,
-        "rows_per_second": 871094.4817005225,
-        "peak_rss_increase_mb": 24.4,
-        "est_full_train_pass_minutes": 2.4011371639619914
+        "seconds": 1.56,
+        "rows_per_second": 2565525.773103271,
+        "peak_rss_increase_mb": 28.3,
+        "est_full_train_pass_minutes": 0.8152782385823799
       },
       {
         "chunk_size": 1000000,
         "rows_read": 4000000,
-        "seconds": 4.82,
-        "rows_per_second": 829060.8385989909,
-        "peak_rss_increase_mb": 24.1,
-        "est_full_train_pass_minutes": 2.522875567090957
+        "seconds": 1.66,
+        "rows_per_second": 2415033.9728513667,
+        "peak_rss_increase_mb": 55.9,
+        "est_full_train_pass_minutes": 0.8660819503353885
       }
     ]
   },

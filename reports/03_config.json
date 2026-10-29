@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-10-26T17:18:46",
+  "created_at": "2026-10-29T22:11:13",
   "seed": 42,
   "horizon": 16,
   "lookback": 224,
@@ -26,7 +26,7 @@
   ],
   "target_train_rows": 3000000,
   "train_pair_frac": 0.023228259835402693,
-  "feature_dir": "data/processed/features",
+  "feature_dir": "data\\processed\\features",
   "target": "y_log = log1p(clip(unit_sales, 0))",
   "weight": "w (perishable = 1.25, còn lại 1.0)",
   "train_origin_rule": "mốc huấn luyện T_tr dùng cho fold F nếu T_tr + HORIZON <= T_F",
@@ -155,6 +155,6 @@
   },
   "baseline_best": {
     "name": "B2c mean_28",
-    "nwrmsle": 0.6385877968946477
+    "nwrmsle": 0.6385877968751591
   }
 }
